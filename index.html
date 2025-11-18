@@ -221,15 +221,14 @@
       </table>
       <div style="margin-top:10px; text-align:center;">
         ${feature.properties['Link_peta']
-          ? `<a href="${feature.properties['Link_peta']}" target="_blank" rel="noopener noreferrer"
-    style="display:inline-flex; align-items:center; gap:6px;
-           background-color:#0078A8; color:white;
-           padding:8px 14px; border-radius:6px;
-           text-decoration:none; font-weight:600;
-           transition:background 0.2s;"
-    onclick="window.open(this.href, '_blank', 'noopener'); return false;">
-    <span style="font-size:16px;">📄</span> Lihat Peta PDF
-</a>`
+          ? `<a href="${feature.properties['Link_peta']}" target="_blank"
+                style="display:inline-flex; align-items:center; gap:6px;
+                       background-color:#0078A8; color:white;
+                       padding:8px 14px; border-radius:6px;
+                       text-decoration:none; font-weight:600;
+                       transition:background 0.2s;">
+                <span style="font-size:16px;">📄</span> Lihat Peta PDF
+             </a>`
           : `<span style="color:#888;">Tidak tersedia</span>`
         }
       </div>
