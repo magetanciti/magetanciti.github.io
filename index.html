@@ -46,18 +46,24 @@
         <script src="data/Kantor_Kelurahan_4.js"></script>
         <script>
         var highlightLayer;
+        var currentOpacity = 0.7;
         function highlightFeature(e) {
             highlightLayer = e.target;
 
-            if (e.target.feature.geometry.type === 'LineString' || e.target.feature.geometry.type === 'MultiLineString') {
-              highlightLayer.setStyle({
-                color: '#ffff00',
-              });
-            } else {
-              highlightLayer.setStyle({
-                fillColor: '#ffff00',
-                fillOpacity: 1
-              });
+            if (typeof highlightLayer.setStyle === 'function') {
+              if (e.target.feature.geometry.type === 'LineString' || e.target.feature.geometry.type === 'MultiLineString') {
+                highlightLayer.setStyle({
+                  color: '#ffff00',
+                  weight: 3
+                });
+              } else {
+                highlightLayer.setStyle({
+                  fillColor: '#ffff00',
+                  fillOpacity: 1,
+                  opacity: 1,
+                  weight: 2
+                });
+              }
             }
         }
         var map = L.map('map', {
@@ -179,11 +185,7 @@
         function pop_Petabatas_3(feature, layer) {
             layer.on({
                 mouseout: function(e) {
-                    for (var i in e.target._eventParents) {
-                        if (typeof e.target._eventParents[i].resetStyle === 'function') {
-                            e.target._eventParents[i].resetStyle(e.target);
-                        }
-                    }
+                    e.target.setStyle(baseStyle_Petabatas(e.target.feature));
                 },
                 mouseover: highlightFeature,
             });
@@ -239,6 +241,13 @@
 				addClassToPopupIfMedia(content, e.popup);
 			});
 			layer.bindPopup(content, { maxHeight: 400 });
+        }
+
+        function baseStyle_Petabatas(feature) {
+            var s = style_Petabatas_3_0(feature);
+            s.opacity = currentOpacity;
+            s.fillOpacity = currentOpacity;
+            return s;
         }
 
         function style_Petabatas_3_0(feature) {
@@ -499,6 +508,7 @@
         });
         bounds_group.addLayer(layer_Petabatas_3);
         map.addLayer(layer_Petabatas_3);
+        layer_Petabatas_3.setStyle({opacity: currentOpacity, fillOpacity: currentOpacity});
    function pop_Kantor_Kelurahan_4(feature, layer) {
     layer.on({
         mouseout: function(e) {
@@ -1026,13 +1036,15 @@ kecamatanSelect.addEventListener("change", function(e){
   const selectedKec = e.target.value;
   layer_Petabatas_3.clearLayers();
   if (selectedKec === "All") {
-    layer_Petabatas_3.addData(json_Petabatas_3);
+  layer_Petabatas_3.addData(json_Petabatas_3);
+  layer_Petabatas_3.setStyle({opacity: currentOpacity, fillOpacity: currentOpacity});
     map.fitBounds(layer_Petabatas_3.getBounds());
     kelurahanSelect.innerHTML = '<option value="All">Semua Kelurahan</option>';
     kelurahanSelect.disabled = true;
   } else {
     const filtered = json_Petabatas_3.features.filter(f => f.properties.WADMKC === selectedKec);
     layer_Petabatas_3.addData({type:"FeatureCollection", features:filtered});
+    layer_Petabatas_3.setStyle({opacity: currentOpacity, fillOpacity: currentOpacity});
     map.fitBounds(L.geoJson({type:"FeatureCollection", features:filtered}).getBounds());
 
     // Update dropdown kelurahan
@@ -1077,6 +1089,7 @@ document.getElementById('layerBatas').addEventListener('change', function() {
 // --- Slider opacity ---
 opacitySlider.addEventListener('input', function() {
   const opacityValue = parseFloat(this.value);
+  currentOpacity = opacityValue;
   layer_Petabatas_3.setStyle({opacity:opacityValue, fillOpacity:opacityValue});
 });
 </script>
