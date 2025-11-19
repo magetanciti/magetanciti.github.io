@@ -954,6 +954,8 @@ map.addControl(searchControl);
   <label><input type="radio" name="basemap" value="osm" checked> OpenStreetMap</label>
   <label><input type="radio" name="basemap" value="satellite"> Citra Satelit (Google)</label>
   <label><input type="radio" name="basemap" value="gray"> Peta Abu-Abu (Esri Gray)</label>
+  <h4>Ekspor</h4>
+  <button id="downloadKecSvg">Download SVG Kecamatan</button>
 </div>
 
 <script>
@@ -1091,6 +1093,72 @@ opacitySlider.addEventListener('input', function() {
   const opacityValue = parseFloat(this.value);
   currentOpacity = opacityValue;
   layer_Petabatas_3.setStyle({opacity:opacityValue, fillOpacity:opacityValue});
+});
+
+const downloadSvgBtn = document.getElementById('downloadKecSvg');
+downloadSvgBtn.addEventListener('click', function(){
+  const selectedKec = kecamatanSelect.value;
+  if (selectedKec === 'All') { alert('Pilih kecamatan terlebih dahulu.'); return; }
+  const prevCenter = map.getCenter();
+  const prevZoom = map.getZoom();
+  const filtered = json_Petabatas_3.features.filter(f => f.properties.WADMKC === selectedKec);
+  const geo = L.geoJson({type:'FeatureCollection', features: filtered});
+  const bounds = geo.getBounds();
+  map.fitBounds(bounds, { animate: false, padding: [10,10] });
+  const size = map.getSize();
+  function polygonPath(rings){
+    var d = '';
+    for (var r=0;r<rings.length;r++){
+      var ring = rings[r];
+      for (var i=0;i<ring.length;i++){
+        var p = map.latLngToContainerPoint([ring[i][1], ring[i][0]]);
+        d += (i===0? 'M' : 'L') + p.x + ' ' + p.y;
+      }
+      d += 'Z';
+    }
+    return d;
+  }
+  function featurePath(feat){
+    if (feat.geometry.type === 'Polygon') return polygonPath(feat.geometry.coordinates);
+    var d = '';
+    if (feat.geometry.type === 'MultiPolygon'){
+      for (var k=0;k<feat.geometry.coordinates.length;k++){
+        d += polygonPath(feat.geometry.coordinates[k]);
+      }
+    }
+    return d;
+  }
+  var svg = '<svg xmlns="http://www.w3.org/2000/svg" width="'+size.x+'" height="'+size.y+'" viewBox="0 0 '+size.x+' '+size.y+'">';
+  for (var f=0;f<filtered.length;f++){
+    var feat = filtered[f];
+    var name = feat.properties && feat.properties.NAMOBJ ? String(feat.properties.NAMOBJ) : '';
+    var s = style_Petabatas_3_0(feat);
+    var d = featurePath(feat);
+    svg += '<g id="'+name.replace(/[^A-Za-z0-9_\-]/g,'_')+'" data-kelurahan="'+name.replace(/"/g,'')+'">';
+    svg += '<path d="'+d+'" fill="'+s.fillColor+'" stroke="'+s.color+'" stroke-width="'+(s.weight||1)+'" />';
+    var b = L.geoJson(feat).getBounds();
+    var c = b.getCenter();
+    var p = map.latLngToContainerPoint(c);
+    var nw = map.latLngToContainerPoint(b.getNorthWest());
+    var se = map.latLngToContainerPoint(b.getSouthEast());
+    var w = Math.abs(se.x - nw.x);
+    var h = Math.abs(se.y - nw.y);
+    var dwh = Math.min(w,h);
+    var fs = Math.max(9, Math.min(13, Math.round(dwh/25)));
+    svg += '<text x="'+p.x+'" y="'+p.y+'" font-family="Segoe UI, Arial" font-size="'+fs+'" fill="#222" text-anchor="middle" dominant-baseline="middle">'+name+'</text>';
+    svg += '</g>';
+  }
+  svg += '</svg>';
+  const blob = new Blob([svg], {type:'image/svg+xml'});
+  const url = URL.createObjectURL(blob);
+  const link = document.createElement('a');
+  link.href = url;
+  link.download = 'kecamatan_'+selectedKec.replace(/\s+/g,'_')+'.svg';
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+  URL.revokeObjectURL(url);
+  map.setView(prevCenter, prevZoom);
 });
 </script>
 <script>
