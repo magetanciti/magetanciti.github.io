@@ -1101,10 +1101,12 @@ downloadSvgBtn.addEventListener('click', function(){
   if (selectedKec === 'All') { alert('Pilih kecamatan terlebih dahulu.'); return; }
   const prevCenter = map.getCenter();
   const prevZoom = map.getZoom();
-  const filtered = json_Petabatas_3.features.filter(f => f.properties.WADMKC === selectedKec);
-  const geo = L.geoJson({type:'FeatureCollection', features: filtered});
-  const bounds = geo.getBounds();
-  map.fitBounds(bounds, { animate: false, padding: [10,10] });
+  const mainFeatures = json_Petabatas_3.features.filter(f => f.properties.WADMKC === selectedKec);
+  const mainGeo = L.geoJson({type:'FeatureCollection', features: mainFeatures});
+  const mainBounds = mainGeo.getBounds();
+  map.fitBounds(mainBounds, { animate: false, padding: [10,10] });
+  const expanded = mainBounds.pad(0.08);
+  const neighborFeatures = json_Petabatas_3.features.filter(f => f.properties.WADMKC !== selectedKec && expanded.intersects(L.geoJson(f).getBounds()));
   const size = map.getSize();
   function polygonPath(rings){
     var d = '';
@@ -1129,13 +1131,22 @@ downloadSvgBtn.addEventListener('click', function(){
     return d;
   }
   var svg = '<svg xmlns="http://www.w3.org/2000/svg" width="'+size.x+'" height="'+size.y+'" viewBox="0 0 '+size.x+' '+size.y+'">';
-  for (var f=0;f<filtered.length;f++){
-    var feat = filtered[f];
-    var name = feat.properties && feat.properties.NAMOBJ ? String(feat.properties.NAMOBJ) : '';
+  svg += '<rect x="0" y="0" width="'+size.x+'" height="'+size.y+'" fill="#f3f3f3" />';
+  svg += '<g id="neighbors">';
+  for (var nf=0; nf<neighborFeatures.length; nf++){
+    var nfeat = neighborFeatures[nf];
+    var nd = featurePath(nfeat);
+    svg += '<path d="'+nd+'" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" vector-effect="non-scaling-stroke" />';
+  }
+  svg += '</g>';
+  svg += '<g id="main">';
+  for (var f=0; f<mainFeatures.length; f++){
+    var feat = mainFeatures[f];
     var s = style_Petabatas_3_0(feat);
     var d = featurePath(feat);
-    svg += '<g id="'+name.replace(/[^A-Za-z0-9_\-]/g,'_')+'" data-kelurahan="'+name.replace(/"/g,'')+'">';
-    svg += '<path d="'+d+'" fill="'+s.fillColor+'" stroke="'+s.color+'" stroke-width="'+(s.weight||1)+'" />';
+    var kid = String(feat.properties.NAMOBJ || '').replace(/[^A-Za-z0-9_\-]/g,'_');
+    svg += '<g id="'+kid+'" data-kelurahan="'+String(feat.properties.NAMOBJ||'').replace(/"/g,'')+'">';
+    svg += '<path d="'+d+'" fill="'+s.fillColor+'" stroke="'+s.color+'" stroke-width="'+(s.weight||1)+'" stroke-linecap="butt" stroke-linejoin="miter" vector-effect="non-scaling-stroke" />';
     var b = L.geoJson(feat).getBounds();
     var c = b.getCenter();
     var p = map.latLngToContainerPoint(c);
@@ -1144,9 +1155,44 @@ downloadSvgBtn.addEventListener('click', function(){
     var w = Math.abs(se.x - nw.x);
     var h = Math.abs(se.y - nw.y);
     var dwh = Math.min(w,h);
-    var fs = Math.max(9, Math.min(13, Math.round(dwh/25)));
-    svg += '<text x="'+p.x+'" y="'+p.y+'" font-family="Segoe UI, Arial" font-size="'+fs+'" fill="#222" text-anchor="middle" dominant-baseline="middle">'+name+'</text>';
+    var fsK = Math.max(8, Math.min(12, Math.round(dwh/30)));
+    var kelName = String(feat.properties.NAMOBJ || '').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+    svg += '<text x="'+p.x+'" y="'+p.y+'" font-family="Sans-serif" font-size="'+fsK+'" fill="#000000" text-anchor="middle" dominant-baseline="middle">'+kelName+'</text>';
     svg += '</g>';
+  }
+  svg += '</g>';
+  var placed = [];
+  function placeLabel(x,y,text){
+    var fs = 10;
+    var w = Math.max(20, Math.round(text.length*fs*0.6));
+    var h = fs;
+    var px = x, py = y, tries = 0;
+    function overlaps(a,b){ return !(a.x+w < b.x || b.x+b.w < a.x || a.y+h < b.y || b.y+b.h < a.y); }
+    while (tries < 50){
+      var box = {x:px-w/2, y:py-h/2, w:w, h:h};
+      var ok = true;
+      for (var i=0;i<placed.length;i++){ if (overlaps(box, placed[i])) { ok=false; break; } }
+      if (ok){ placed.push(box); break; }
+      py += fs + 2;
+      tries++;
+    }
+    return {x:px, y:py, fs:fs};
+  }
+  var mainCenter = map.latLngToContainerPoint(mainBounds.getCenter());
+  var mainLabel = placeLabel(mainCenter.x, mainCenter.y, selectedKec);
+  svg += '<text x="'+mainLabel.x+'" y="'+mainLabel.y+'" font-family="Sans-serif" font-size="'+mainLabel.fs+'" fill="#000000" text-anchor="middle" dominant-baseline="middle">'+selectedKec+'</text>';
+  var neighborKecs = {};
+  for (var i=0;i<neighborFeatures.length;i++){
+    var k = neighborFeatures[i].properties.WADMKC;
+    if (!neighborKecs[k]) neighborKecs[k] = [];
+    neighborKecs[k].push(neighborFeatures[i]);
+  }
+  for (var nk in neighborKecs){
+    var ngeo = L.geoJson({type:'FeatureCollection', features: neighborKecs[nk]});
+    var nb = ngeo.getBounds();
+    var c = map.latLngToContainerPoint(nb.getCenter());
+    var lbl = placeLabel(c.x, c.y, nk);
+    svg += '<text x="'+lbl.x+'" y="'+lbl.y+'" font-family="Sans-serif" font-size="'+lbl.fs+'" fill="#000000" text-anchor="middle" dominant-baseline="middle">'+nk+'</text>';
   }
   svg += '</svg>';
   const blob = new Blob([svg], {type:'image/svg+xml'});
