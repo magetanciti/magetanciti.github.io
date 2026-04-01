@@ -42,6 +42,7 @@
         <script src="js/leaflet.photon.js"></script>
         <script src="js/leaflet.markercluster.js"></script>
         <script src="js/leaflet-search.js"></script>
+        <script src="https://unpkg.com/shpjs@latest/dist/shp.min.js"></script>
         <script src="data/Petabatas_3.js"></script>
         <script src="data/Kantor_Kelurahan_4.js"></script>
         <script>
@@ -938,6 +939,7 @@ map.addControl(searchControl);
   <h4>Layer</h4>
   <label><input type="checkbox" id="layerKantor" checked> Kantor Kelurahan</label>
   <label><input type="checkbox" id="layerBatas" checked> Batas Kelurahan</label>
+  <label><input type="checkbox" id="layerUpload" checked> Data SHP Upload</label>
   <input type="range" id="opacitySlider" min="0" max="1" step="0.1" value="0.7" style="width: 100%;">
 
   <h4>Filter Kecamatan</h4>
@@ -954,6 +956,9 @@ map.addControl(searchControl);
   <label><input type="radio" name="basemap" value="osm" checked> OpenStreetMap</label>
   <label><input type="radio" name="basemap" value="satellite"> Citra Satelit (Google)</label>
   <label><input type="radio" name="basemap" value="gray"> Peta Abu-Abu (Esri Gray)</label>
+  <h4>Upload Data SHP</h4>
+  <input type="file" id="shpUpload" accept=".zip">
+  <button id="clearUpload">Hapus Layer Upload</button>
   <h4>Ekspor</h4>
   <button id="downloadKecSvg">Download SVG Kecamatan</button>
 </div>
@@ -967,6 +972,89 @@ toggleBtn.addEventListener('click', () => {
   panel.style.display = panelVisible ? 'block' : 'none';
   toggleBtn.textContent = panelVisible ? '⮞' : '☰';
 });
+
+var uploadSHPGroup = new L.FeatureGroup();
+map.addLayer(uploadSHPGroup);
+document.getElementById('layerUpload').addEventListener('change', function() {
+  if (this.checked) map.addLayer(uploadSHPGroup); else map.removeLayer(uploadSHPGroup);
+});
+
+function pop_UploadSHP(feature, layer) {
+  var rows = '';
+  for (var k in feature.properties) {
+    if (Object.prototype.hasOwnProperty.call(feature.properties, k)) {
+      var v = feature.properties[k];
+      rows += '<tr><th align="left" style="padding:4px 6px;color:#444;">' + String(k) + '</th><td style="padding:4px 6px;">' + (v == null ? '-' : String(v)) + '</td></tr>';
+    }
+  }
+  var content = '<div style="font-family:Segoe UI, sans-serif;font-size:13px;line-height:1.5;color:#333;padding:8px 4px;"><div style="background-color:#f9f9f9;border-radius:8px;padding:10px 14px;box-shadow:0 1px 4px rgba(0,0,0,0.1);"><table style="border-collapse:collapse;width:100%;">' + rows + '</table></div></div>';
+  layer.bindPopup(content, { maxHeight: 400 });
+}
+
+const shpUploadInput = document.getElementById('shpUpload');
+if (shpUploadInput) {
+  shpUploadInput.addEventListener('change', function(e) {
+    var file = e.target.files && e.target.files[0];
+    if (!file) return;
+    var reader = new FileReader();
+    reader.onload = function() {
+      shp.parseZip(reader.result).then(function(geojson) {
+        var features = [];
+        if (geojson && geojson.type === 'FeatureCollection' && Array.isArray(geojson.features)) {
+          features = geojson.features;
+        } else {
+          for (var key in geojson) {
+            var fc = geojson[key];
+            if (fc && fc.type === 'FeatureCollection' && Array.isArray(fc.features)) {
+              features = features.concat(fc.features);
+            }
+          }
+        }
+        var pts = [];
+        for (var i = 0; i < features.length; i++) {
+          var f = features[i];
+          if (!f || !f.geometry) continue;
+          var g = f.geometry;
+          if (g.type === 'Point') {
+            pts.push(f);
+          } else if (g.type === 'MultiPoint') {
+            for (var mp = 0; mp < g.coordinates.length; mp++) {
+              pts.push({ type: 'Feature', geometry: { type: 'Point', coordinates: g.coordinates[mp] }, properties: f.properties || {} });
+            }
+          } else {
+            var b = L.geoJson(f).getBounds();
+            var c = b.getCenter();
+            pts.push({ type: 'Feature', geometry: { type: 'Point', coordinates: [c.lng, c.lat] }, properties: f.properties || {} });
+          }
+        }
+        var uploadLayer = L.geoJson({ type: 'FeatureCollection', features: pts }, {
+          onEachFeature: pop_UploadSHP,
+          pointToLayer: function(feature, latlng) {
+            return L.circleMarker(latlng, {
+              radius: 6,
+              color: '#333333',
+              weight: 1,
+              fill: true,
+              fillColor: '#ff5722',
+              fillOpacity: 0.9
+            });
+          }
+        });
+        uploadSHPGroup.clearLayers();
+        uploadSHPGroup.addLayer(uploadLayer);
+        map.addLayer(uploadSHPGroup);
+        var bb = uploadLayer.getBounds();
+        if (bb.isValid()) { map.fitBounds(bb); }
+      }).catch(function() { alert('Gagal memuat SHP. Pastikan berkas ZIP berisi .shp, .dbf, .shx, .prj dan berkoordinat WGS84.'); });
+    };
+    reader.readAsArrayBuffer(file);
+  });
+}
+
+const clearUploadBtn = document.getElementById('clearUpload');
+if (clearUploadBtn) {
+  clearUploadBtn.addEventListener('click', function() { uploadSHPGroup.clearLayers(); });
+}
 
 // --- Dropdown kecamatan ---
 const kecamatanSelect = document.getElementById("filterKecamatan");
