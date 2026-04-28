@@ -1,0 +1,47 @@
+/* Panel control styling */
+  #customPanel {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: white;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    font-family: Segoe UI, sans-serif;
+    width: 230px;
+    z-index: 1000;
+  }
+
+  #togglePanel {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: white;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    font-size: 18px;
+    z-index: 1100;
+  }
+
+  #customPanel h4 {
+    margin: 5px 0;
+    font-size: 14px;
+    font-weight: bold;
+    color: #444;
+  }
+
+  #customPanel label {
+    font-size: 13px;
+    display: block;
+    margin: 3px 0;
+  }
+
+  #filterKecamatan {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 8px;
+  }
