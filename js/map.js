@@ -895,6 +895,82 @@ var highlightLayer;
         map.addLayer(cluster_TPS);
         bounds_group.addLayer(layer_TPS);
 
+        // --- LAYER KANTOR KECAMATAN ---
+        function generatePopupContent_Kantor_Kec(feature) {
+            var props = feature.properties;
+            var nama = String(props.NAMOBJ || '-');
+            var alamat = String(props.Alamat || '-');
+            var kodewil = String(props.KODEWIL || '-');
+            var fileImg = String(props.File_img || '');
+            var linkWeb = String(props.Link_Website || '');
+            var baseUrl = 'images/Foto%20Kantor%20Kecamatan/';
+            var defaultImg = 'images/Foto%20Kantor%20Kecamatan/kecamatan_stengah.jpeg';
+            var imgSrc = fileImg ? baseUrl + encodeURIComponent(fileImg) : defaultImg;
+            var onErrorAttr = 'onerror="this.onerror=null;this.src=\'' + defaultImg + '\'"';
+
+            var content = '<div class="popup-kantor-kec" style="font-family:Segoe UI,sans-serif;font-size:13px;line-height:1.5;color:#333;">' +
+                '<div style="background:#f9f9f9;border-radius:8px;padding:10px 14px;box-shadow:0 1px 4px rgba(0,0,0,0.1);">' +
+                '<div style="text-align:center;margin-bottom:8px;padding-bottom:6px;border-bottom:2px solid #0078A8;">' +
+                '<span style="font-weight:700;font-size:15px;color:#0078A8;">📍 Kantor Kecamatan ' + nama + '</span>' +
+                '</div>' +
+                '<table style="border-collapse:collapse;width:100%;">' +
+                '<tr><th align="left" style="padding:4px 6px;color:#444;">Kode Wilayah</th><td style="padding:4px 6px;font-weight:500;">' + kodewil + '</td></tr>' +
+                '<tr><th align="left" style="padding:4px 6px;color:#444;">Kecamatan</th><td style="padding:4px 6px;font-weight:600;font-size:14px;">' + nama + '</td></tr>' +
+                '<tr><th align="left" style="padding:4px 6px;color:#444;">Alamat</th><td style="padding:4px 6px;">' + alamat + '</td></tr>' +
+                '</table>' +
+                '<div style="margin-top:8px;text-align:center;">' +
+                '<img src="' + imgSrc + '" ' + onErrorAttr + ' style="width:200px;max-height:150px;object-fit:contain;border-radius:6px;border:1px solid #ddd;" />' +
+                '</div>' +
+                '<div style="margin-top:8px;text-align:center;">' +
+                (linkWeb ? '<a href="' + linkWeb + '" target="_blank" style="display:inline-flex;align-items:center;gap:6px;background:#0078A8;color:white;padding:6px 12px;border-radius:6px;text-decoration:none;font-weight:600;font-size:12px;transition:background 0.2s;margin-right:6px;">🌐 Website</a>' : '') +
+                '<a href="https://www.google.com/maps?q=' + feature.geometry.coordinates[1] + ',' + feature.geometry.coordinates[0] + '" target="_blank" style="display:inline-flex;align-items:center;gap:4px;background:#EA4335;color:white;padding:6px 12px;border-radius:6px;text-decoration:none;font-weight:600;font-size:12px;transition:background 0.2s;">📍 Google Maps</a>' +
+                '</div>' +
+                '</div></div>';
+            return content;
+        }
+
+        map.createPane('pane_Kantor_Kec');
+        map.getPane('pane_Kantor_Kec').style.zIndex = 406;
+        map.getPane('pane_Kantor_Kec').style['mix-blend-mode'] = 'normal';
+
+        var layer_Kantor_Kec = L.geoJson(json_Kantor_Kec, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_Kantor_Kec',
+            layerName: 'layer_Kantor_Kec',
+            pane: 'pane_Kantor_Kec',
+            pointToLayer: function(feature, latlng) {
+                var markerIcon = L.divIcon({
+                                className: '',  // ← hapus style default leaflet-div-icon
+                                html: '<img src="images/Foto%20Kantor%20Kecamatan/marked.webp" ' +
+                                    'onerror="this.style.display=\'none\'" ' +
+                                    'style="width:32px;height:32px;object-fit:contain;display:block;" />',
+                                iconSize: [32, 32],
+                                iconAnchor: [16, 32],
+                                popupAnchor: [0, -28]
+});
+                var marker = L.marker(latlng, { icon: markerIcon });
+                marker.bindPopup(generatePopupContent_Kantor_Kec(feature), { maxHeight: 350, maxWidth: 300 });
+                return marker;
+            },
+        });
+
+        var cluster_Kantor_Kec = new L.MarkerClusterGroup({
+            showCoverageOnHover: false,
+            spiderfyDistanceMultiplier: 2,
+            maxClusterRadius: 40,
+            iconCreateFunction: function(cluster) {
+                var count = cluster.getChildCount();
+                return L.divIcon({
+                    html: '<div style="background:#0078A8;color:white;border-radius:50%;width:32px;height:32px;display:flex;align-items:center;justify-content:center;font-weight:bold;font-size:13px;border:2px solid white;box-shadow:0 1px 4px rgba(0,0,0,0.3);">' + count + '</div>',
+                    className: 'kantor-kec-cluster',
+                    iconSize: L.point(32, 32)
+                });
+            }
+        });
+        cluster_Kantor_Kec.addLayer(layer_Kantor_Kec);
+        bounds_group.addLayer(cluster_Kantor_Kec);
+
         // --- LAYER BATAS KECAMATAN ---
         function generatePopupContent_kecamatan(feature) {
             var WADMKC = feature.properties['WADMKC'] !== null ? String(feature.properties['WADMKC']) : '';

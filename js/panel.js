@@ -144,12 +144,13 @@ kelurahanSelect.addEventListener("change", function(e){
 });
 
 // --- Layer toggle (Titik) ---
-['layerKantor', 'layerTPS'].forEach(id => {
+['layerKantor', 'layerKantorKec', 'layerTPS'].forEach(id => {
   const el = document.getElementById(id);
   if (el) {
     el.addEventListener('change', function() {
       let layer;
       if (id === 'layerKantor') layer = cluster_Kantor_Kelurahan_4;
+      else if (id === 'layerKantorKec') layer = cluster_Kantor_Kec;
       else if (id === 'layerTPS') layer = cluster_TPS;
 
       if (layer) {
