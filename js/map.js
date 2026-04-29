@@ -36,8 +36,8 @@ var highlightLayer;
               } else {
                 highlightLayer.setStyle({
                   fillColor: '#ffff00',
-                  fillOpacity: 1,
-                  opacity: 1,
+                  fillOpacity: Math.min(1, currentOpacity + 0.1),
+                  opacity: Math.min(1, currentOpacity + 0.1),
                   weight: 2
                 });
               }
@@ -920,19 +920,21 @@ var highlightLayer;
             if (baseStyle) {
                 var s = Object.assign({}, baseStyle);
                 s.pane = 'pane_kecamatan';
-                s.weight = 3.0; // thicker border for kecamatan
+                s.weight = 3.0;
+                s.opacity = currentOpacity;
+                s.fillOpacity = currentOpacity;
                 return s;
             }
             return {
                 pane: 'pane_kecamatan',
-                opacity: 1,
+                opacity: currentOpacity,
                 color: 'rgba(35,35,35,1.0)',
                 dashArray: '',
                 lineCap: 'butt',
                 lineJoin: 'miter',
                 weight: 3.0, 
                 fill: true,
-                fillOpacity: 1,
+                fillOpacity: currentOpacity,
                 fillColor: 'rgba(150,150,150,1.0)',
                 interactive: true,
             };

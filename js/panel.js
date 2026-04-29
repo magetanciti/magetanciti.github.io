@@ -128,6 +128,7 @@ kelurahanSelect.addEventListener("change", function(e){
   if (selectedKec !== "All") filtered = filtered.filter(f => f.properties.WADMKC === selectedKec);
   if (selectedKel !== "All") filtered = filtered.filter(f => f.properties.NAMOBJ === selectedKel);
   layer_Petabatas_3.addData({type:"FeatureCollection", features:filtered});
+  layer_Petabatas_3.setStyle({opacity: currentOpacity, fillOpacity: currentOpacity});
   
   const activeBatas = document.querySelector('input[name="layerBatasGroup"]:checked');
   if (activeBatas) {
