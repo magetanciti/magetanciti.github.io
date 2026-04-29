@@ -76,9 +76,12 @@ function filterKantorKelurahan(selectedKec, selectedKel) {
 kecamatanSelect.addEventListener("change", function(e){
   const selectedKec = e.target.value;
   layer_Petabatas_3.clearLayers();
+  layer_kecamatan.clearLayers();
   if (selectedKec === "All") {
   layer_Petabatas_3.addData(json_Petabatas_3);
   layer_Petabatas_3.setStyle({opacity: currentOpacity, fillOpacity: currentOpacity});
+  layer_kecamatan.addData(json_kecamatan);
+  layer_kecamatan.setStyle({opacity: currentOpacity, fillOpacity: currentOpacity});
     map.fitBounds(layer_Petabatas_3.getBounds());
     kelurahanSelect.innerHTML = '<option value="All">Semua Kelurahan</option>';
     kelurahanSelect.disabled = true;
@@ -86,6 +89,9 @@ kecamatanSelect.addEventListener("change", function(e){
     const filtered = json_Petabatas_3.features.filter(f => f.properties.WADMKC === selectedKec);
     layer_Petabatas_3.addData({type:"FeatureCollection", features:filtered});
     layer_Petabatas_3.setStyle({opacity: currentOpacity, fillOpacity: currentOpacity});
+    const filteredKec = json_kecamatan.features.filter(f => f.properties.WADMKC === selectedKec);
+    layer_kecamatan.addData({type:"FeatureCollection", features:filteredKec});
+    layer_kecamatan.setStyle({opacity: currentOpacity, fillOpacity: currentOpacity});
     map.fitBounds(L.geoJson({type:"FeatureCollection", features:filtered}).getBounds());
 
     // Update dropdown kelurahan
@@ -99,7 +105,17 @@ kecamatanSelect.addEventListener("change", function(e){
     });
     kelurahanSelect.disabled = false;
   }
-  if (!map.hasLayer(layer_Petabatas_3)) map.addLayer(layer_Petabatas_3);
+  
+  // Sync radio state if we force show Batas Kelurahan/Kecamatan
+  const activeBatas = document.querySelector('input[name="layerBatasGroup"]:checked');
+  if (activeBatas) {
+    if (activeBatas.value === 'kelurahan') {
+      if (!map.hasLayer(layer_Petabatas_3)) map.addLayer(layer_Petabatas_3);
+    } else if (activeBatas.value === 'kecamatan') {
+      if (!map.hasLayer(layer_kecamatan)) map.addLayer(layer_kecamatan);
+    }
+  }
+  
   filterKantorKelurahan(selectedKec, "All");
 });
 
@@ -112,31 +128,72 @@ kelurahanSelect.addEventListener("change", function(e){
   if (selectedKec !== "All") filtered = filtered.filter(f => f.properties.WADMKC === selectedKec);
   if (selectedKel !== "All") filtered = filtered.filter(f => f.properties.NAMOBJ === selectedKel);
   layer_Petabatas_3.addData({type:"FeatureCollection", features:filtered});
-  if (!map.hasLayer(layer_Petabatas_3)) map.addLayer(layer_Petabatas_3);
+  
+  const activeBatas = document.querySelector('input[name="layerBatasGroup"]:checked');
+  if (activeBatas) {
+    if (activeBatas.value === 'kelurahan') {
+      if (!map.hasLayer(layer_Petabatas_3)) map.addLayer(layer_Petabatas_3);
+    } else if (activeBatas.value === 'kecamatan') {
+      if (!map.hasLayer(layer_kecamatan)) map.addLayer(layer_kecamatan);
+    }
+  }
+  
   map.fitBounds(L.geoJson({type:"FeatureCollection", features:filtered}).getBounds());
   filterKantorKelurahan(selectedKec, selectedKel);
 });
 
-// --- Layer toggle ---
-document.getElementById('layerKantor').addEventListener('change', function() {
-  if (this.checked) map.addLayer(cluster_Kantor_Kelurahan_4);
-  else map.removeLayer(cluster_Kantor_Kelurahan_4);
+// --- Layer toggle (Titik) ---
+['layerKantor', 'layerTPS'].forEach(id => {
+  const el = document.getElementById(id);
+  if (el) {
+    el.addEventListener('change', function() {
+      let layer;
+      if (id === 'layerKantor') layer = cluster_Kantor_Kelurahan_4;
+      else if (id === 'layerTPS') layer = cluster_TPS;
+
+      if (layer) {
+        if (this.checked) {
+          if (!map.hasLayer(layer)) map.addLayer(layer);
+        } else {
+          if (map.hasLayer(layer)) map.removeLayer(layer);
+        }
+      }
+    });
+    // Trigger event on load to sync state
+    el.dispatchEvent(new Event('change'));
+  }
 });
-document.getElementById('layerBatas').addEventListener('change', function() {
-  if (this.checked) map.addLayer(layer_Petabatas_3);
-  else map.removeLayer(layer_Petabatas_3);
+
+// --- Layer toggle (Batas Group) ---
+const batasRadios = document.querySelectorAll('input[name="layerBatasGroup"]');
+batasRadios.forEach(radio => {
+  radio.addEventListener('change', function() {
+    if (this.checked) {
+      if (this.value === 'kecamatan') {
+        if (!map.hasLayer(layer_kecamatan)) map.addLayer(layer_kecamatan);
+        if (map.hasLayer(layer_Petabatas_3)) map.removeLayer(layer_Petabatas_3);
+      } else if (this.value === 'kelurahan') {
+        if (!map.hasLayer(layer_Petabatas_3)) map.addLayer(layer_Petabatas_3);
+        if (map.hasLayer(layer_kecamatan)) map.removeLayer(layer_kecamatan);
+      } else if (this.value === 'none') {
+        if (map.hasLayer(layer_kecamatan)) map.removeLayer(layer_kecamatan);
+        if (map.hasLayer(layer_Petabatas_3)) map.removeLayer(layer_Petabatas_3);
+      }
+    }
+  });
 });
-document.getElementById('layerTPS').addEventListener('change', function() {
-  if (this.checked) map.addLayer(cluster_TPS);
-  else map.removeLayer(cluster_TPS);
-});
+// Trigger event on load to sync state for checked radio
+const checkedBatasRadio = document.querySelector('input[name="layerBatasGroup"]:checked');
+if (checkedBatasRadio) checkedBatasRadio.dispatchEvent(new Event('change'));
 
 // --- Slider opacity ---
 opacitySlider.addEventListener('input', function() {
   const opacityValue = parseFloat(this.value);
   currentOpacity = opacityValue;
   layer_Petabatas_3.setStyle({opacity:opacityValue, fillOpacity:opacityValue});
+  layer_kecamatan.setStyle({opacity:opacityValue, fillOpacity:opacityValue});
 });
+opacitySlider.dispatchEvent(new Event('input'));
 
 const downloadSvgBtn = document.getElementById('downloadKecSvg');
 downloadSvgBtn.addEventListener('click', function(){

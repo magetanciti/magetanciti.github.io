@@ -46,15 +46,22 @@
         <script src="data/Petabatas_3.js"></script>
         <script src="data/Kantor_Kelurahan_4.js"></script>
         <script src="data/TPS_KOTA_SEMARANG_2026.js"></script>
+        <script src="data/kecamatan.js"></script>
         <script src="js/map.js" defer></script>  
 <link rel="stylesheet" href="css/custom.css">   
 <!-- Panel toggle & filter -->
 <button id="togglePanel">☰</button>
 <div id="customPanel">
-  <h4>Layer</h4>
+  <h4>Layer Titik</h4>
   <label><input type="checkbox" id="layerKantor" checked> Kantor Kelurahan</label>
-  <label><input type="checkbox" id="layerBatas" checked> Batas Kelurahan</label>
   <label><input type="checkbox" id="layerTPS" checked> TPS</label>
+
+  <h4>Layer Batas</h4>
+  <label><input type="radio" name="layerBatasGroup" id="layerKecamatan" value="kecamatan" checked> Batas Kecamatan</label>
+  <label><input type="radio" name="layerBatasGroup" id="layerBatas" value="kelurahan"> Batas Kelurahan</label>
+  <label><input type="radio" name="layerBatasGroup" id="layerBatasNone" value="none"> Tanpa Batas</label>
+  
+  <label style="display:block; margin-top:10px; font-size:12px; font-weight:bold;">Transparansi Batas:</label>
   <input type="range" id="opacitySlider" min="0" max="1" step="0.1" value="0.7" style="width: 100%;">
 
   <h4>Filter Kecamatan</h4>

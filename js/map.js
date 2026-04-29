@@ -895,6 +895,66 @@ var highlightLayer;
         map.addLayer(cluster_TPS);
         bounds_group.addLayer(layer_TPS);
 
+        // --- LAYER BATAS KECAMATAN ---
+        function generatePopupContent_kecamatan(feature) {
+            var WADMKC = feature.properties['WADMKC'] !== null ? String(feature.properties['WADMKC']) : '';
+            return '<div style="padding: 5px;">\
+                <h4 style="margin: 0 0 5px 0;">Kecamatan</h4>\
+                <b>' + WADMKC + '</b>\
+            </div>';
+        }
+
+        function pop_kecamatan(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    e.target.setStyle(style_kecamatan(e.target.feature));
+                },
+                mouseover: highlightFeature,
+            });
+            var popupContent = generatePopupContent_kecamatan(feature);
+            layer.bindPopup(popupContent, { maxHeight: 400 });
+        }
+
+        function style_kecamatan(feature) {
+            var baseStyle = style_Petabatas_3_0(feature);
+            if (baseStyle) {
+                var s = Object.assign({}, baseStyle);
+                s.pane = 'pane_kecamatan';
+                s.weight = 3.0; // thicker border for kecamatan
+                return s;
+            }
+            return {
+                pane: 'pane_kecamatan',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 3.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(150,150,150,1.0)',
+                interactive: true,
+            };
+        }
+
+        map.createPane('pane_kecamatan');
+        map.getPane('pane_kecamatan').style.zIndex = 402; // Underneath Kelurahan boundaries (403)
+        map.getPane('pane_kecamatan').style['mix-blend-mode'] = 'normal';
+        
+        var layer_kecamatan = new L.geoJson(json_kecamatan, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_kecamatan',
+            layerName: 'layer_kecamatan',
+            pane: 'pane_kecamatan',
+            onEachFeature: pop_kecamatan,
+            style: style_kecamatan,
+        });
+        
+        map.addLayer(layer_kecamatan);
+        bounds_group.addLayer(layer_kecamatan);
+
         setBounds();
        var searchControl = new L.Control.Search({
     layer: cluster_Kantor_Kelurahan_4,
