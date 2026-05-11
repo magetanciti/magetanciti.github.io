@@ -973,11 +973,76 @@ var highlightLayer;
 
         // --- LAYER BATAS KECAMATAN ---
         function generatePopupContent_kecamatan(feature) {
-            var WADMKC = feature.properties['WADMKC'] !== null ? String(feature.properties['WADMKC']) : '';
-            return '<div style="padding: 5px;">\
-                <h4 style="margin: 0 0 5px 0;">Kecamatan</h4>\
-                <b>' + WADMKC + '</b>\
-            </div>';
+            var props = (feature && feature.properties) ? feature.properties : {};
+            var nama = (props['WADMKC'] != null) ? String(props['WADMKC']) : '-';
+
+            function pickProp(obj, keys) {
+                for (var i = 0; i < keys.length; i++) {
+                    var k = keys[i];
+                    if (obj && obj[k] != null && obj[k] !== '') return obj[k];
+                }
+                return null;
+            }
+
+            function normalizeNumberLike(val) {
+                if (Array.isArray(val)) {
+                    if (val.length === 0) return null;
+                    if (val.length === 1) return normalizeNumberLike(val[0]);
+                    return String(val.join(','));
+                }
+                if (typeof val === 'number' && isFinite(val)) return val;
+                if (typeof val === 'string') {
+                    var s = val.trim();
+                    if (!s) return null;
+                    var sNum = s.replace(/\./g, '').replace(/,/g, '.');
+                    var n = Number(sNum);
+                    if (isFinite(n)) return n;
+                    return s;
+                }
+                return val;
+            }
+
+            function formatValue(val, suffix) {
+                if (val == null || val === '') return '-';
+                var norm = normalizeNumberLike(val);
+                var out = (typeof norm === 'number') ? norm.toLocaleString('id-ID') : String(norm);
+                return suffix ? (out + suffix) : out;
+            }
+
+            var luas = pickProp(props, ['LUAS', 'Luas', 'Luas_km2', 'LUAS_KM2', 'LuasKm2', 'Luas (km2)']);
+            var pendTotal = pickProp(props, ['Total_Pend', 'TOTAL_PEND', 'Jumlah_Penduduk', 'JUMLAH_PENDUDUK', 'PENDUDUK', 'Total', 'TOTAL']);
+            var linkPetaRaw = pickProp(props, ['Link_Peta', 'LINK_PETA', 'LinkPeta', 'LINKPETA', 'link_peta']);
+            var linkPeta = (linkPetaRaw != null) ? String(linkPetaRaw).trim() : '';
+            if (!(linkPeta.indexOf('http://') === 0 || linkPeta.indexOf('https://') === 0)) linkPeta = '';
+            var linkButton = linkPeta
+                ? `<a href="${linkPeta}" target="_blank" rel="noopener noreferrer" style="display:inline-block;background:#0078A8;color:#fff;text-decoration:none;padding:8px 12px;border-radius:8px;font-weight:600;">Buka File Peta</a>`
+                : `<span style="display:inline-block;background:#b8b8b8;color:#fff;padding:8px 12px;border-radius:8px;font-weight:600;cursor:not-allowed;">File peta tidak tersedia</span>`;
+
+            return `
+  <div style="font-family:'Segoe UI',sans-serif;font-size:13px;line-height:1.5;color:#333;padding:8px 4px;">
+    <div style="background:#f9f9f9;border-radius:8px;padding:10px 14px;box-shadow:0 1px 4px rgba(0,0,0,0.1);">
+      <div style="text-align:center;margin-bottom:8px;padding-bottom:6px;border-bottom:2px solid #0078A8;">
+        <span style="font-weight:700;font-size:15px;color:#0078A8;">Batas Kecamatan</span>
+      </div>
+      <table style="border-collapse:collapse;width:100%;">
+        <tr>
+          <th scope="row" style="text-align:left;padding:6px 8px;border-bottom:1px solid #ddd;white-space:nowrap;">Kecamatan</th>
+          <td style="padding:6px 8px;border-bottom:1px solid #ddd;font-weight:600;">${nama}</td>
+        </tr>
+        <tr>
+          <th scope="row" style="text-align:left;padding:6px 8px;border-bottom:1px solid #ddd;white-space:nowrap;">Luas</th>
+          <td style="padding:6px 8px;border-bottom:1px solid #ddd;">${formatValue(luas, ' km²')}</td>
+        </tr>
+        <tr>
+          <th scope="row" style="text-align:left;padding:6px 8px;border-bottom:1px solid #ddd;white-space:nowrap;">Penduduk</th>
+          <td style="padding:6px 8px;border-bottom:1px solid #ddd;">${formatValue(pendTotal, ' jiwa')}</td>
+        </tr>
+      </table>
+      <div style="margin-top:10px;display:flex;justify-content:center;">
+        ${linkButton}
+      </div>
+    </div>
+  </div>`;
         }
 
         function pop_kecamatan(feature, layer) {
