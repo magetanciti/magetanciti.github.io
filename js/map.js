@@ -859,8 +859,19 @@ var highlightLayer;
                 },
                 mouseover: highlightFeature,
             });
+            var fotoUrl = feature.properties['Foto'];
+            var imgHtml = '';
+            if (fotoUrl !== null && fotoUrl !== undefined) {
+                var match = String(fotoUrl).match(/\/d\/([^/]+)/);
+                if (match) {
+                    imgHtml = '<div style="text-align:center;margin-bottom:6px"><img src="https://drive.google.com/thumbnail?id=' + match[1] + '&sz=w800" style="width:100%;max-width:300px;border-radius:6px" /></div>';
+                } else {
+                    imgHtml = '<div style="text-align:center;margin-bottom:6px"><img src="' + autolinker.link(String(fotoUrl)) + '" style="width:100%;max-width:300px;border-radius:6px" /></div>';
+                }
+            }
             var popupContent = '<table>\
-                <tr><th scope="row">Nama TPS</th><td>' + (feature.properties['Name'] !== null ? autolinker.link(String(feature.properties['Name'])) : '') + '</td></tr>\
+                <tr><th scope="row">TPS</th><td>' + (feature.properties['Name'] !== null ? autolinker.link(String(feature.properties['Name'])) : '') + '</td></tr>\
+                <tr><td colspan="2">' + imgHtml + '</td></tr>\
                 <tr><th scope="row">Kecamatan</th><td>' + (feature.properties['Kecamatan'] !== null ? autolinker.link(String(feature.properties['Kecamatan'])) : '') + '</td></tr>\
                 <tr><th scope="row">Kelurahan</th><td>' + (feature.properties['Kelurahan'] !== null ? autolinker.link(String(feature.properties['Kelurahan'])) : '') + '</td></tr>\
                 <tr><th scope="row">Alamat</th><td>' + (feature.properties['Alamat'] !== null ? autolinker.link(String(feature.properties['Alamat'])) : '') + '</td></tr>\
@@ -872,10 +883,10 @@ var highlightLayer;
         map.getPane('pane_TPS').style.zIndex = 405;
         map.getPane('pane_TPS').style['mix-blend-mode'] = 'normal';
         
-        var layer_TPS = new L.geoJson(json_TPS_KOTA_SEMARANG_2026, {
+        var layer_TPS = new L.geoJson(json_tps_kota_semarang_mei_2026, {
             attribution: '',
             interactive: true,
-            dataVar: 'json_TPS_KOTA_SEMARANG_2026',
+            dataVar: 'json_tps_kota_semarang_mei_2026',
             layerName: 'layer_TPS',
             pane: 'pane_TPS',
             onEachFeature: pop_TPS,
