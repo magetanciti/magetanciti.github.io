@@ -875,6 +875,7 @@ var highlightLayer;
                 <tr><th scope="row">Kecamatan</th><td>' + (feature.properties['Kecamatan'] !== null ? autolinker.link(String(feature.properties['Kecamatan'])) : '') + '</td></tr>\
                 <tr><th scope="row">Kelurahan</th><td>' + (feature.properties['Kelurahan'] !== null ? autolinker.link(String(feature.properties['Kelurahan'])) : '') + '</td></tr>\
                 <tr><th scope="row">Alamat</th><td>' + (feature.properties['Alamat'] !== null ? autolinker.link(String(feature.properties['Alamat'])) : '') + '</td></tr>\
+                <tr><th scope="row">Kontainer</th><td>' + (feature.properties['Kontainer'] !== null && feature.properties['Kontainer'] !== undefined ? String(feature.properties['Kontainer']) : '-') + '</td></tr>\
             </table>';
             layer.bindPopup(popupContent, { maxHeight: 400 });
         }
