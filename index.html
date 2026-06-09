@@ -82,10 +82,22 @@
   <label><input type="radio" name="basemap" value="gray"> Peta Abu-Abu (Esri Gray)</label>
   <h4>Ekspor</h4>
   <button id="downloadKecSvg">Download SVG Kecamatan</button>
+  <h4>Statistik</h4>
+  <button id="btnStats">Statistik TPS</button>
 </div>
 
 <script src="js/panel.js" defer></script>
+<script src="js/stats.js" defer></script>
 
-			
+<!-- Stats Modal -->
+<div id="statsModal" class="stats-modal">
+  <div class="stats-modal-content">
+    <span id="statsClose" class="stats-close">&times;</span>
+    <h2>Statistik TPS Kota Semarang</h2>
+    <p class="stats-subtitle">Data TPS Mei 2026</p>
+    <div id="statsBody"></div>
+  </div>
+</div>
+
     </body>
 </html>
