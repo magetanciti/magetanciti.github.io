@@ -2,6 +2,9 @@
   {
     "kecamatan": "Banyumanik",
     "kelurahan": "-",
+    "jumlah_kelurahan": "11",
+    "batas_wilayah": "utara : Kecamatan Candisari dan Kecamatan Gajahmungkur; timur : Kecamatan Tembalang; selatan : Kabupaten Semarang; barat : Kecamatan Gunungpati;",
+    "karakteristik_topografi": "Perbukitan bergelombang",
     "luas_wilayah": 31.82,
     "total_penduduk": 145708,
     "link_peta": "https://drive.google.com/uc?export=download&id=1uNRjZh8EnrnR3czDbDnrN6K6IBeoW7fM"
@@ -9,6 +12,9 @@
   {
     "kecamatan": "Candisari",
     "kelurahan": "-",
+    "jumlah_kelurahan": "7",
+    "batas_wilayah": "utara : Kecamatan Semarang Selatan; timur : Kecamatan Tembalang; selatan : Kecamatan Banyumanik; barat : Kecamatan Gajahmungkur;",
+    "karakteristik_topografi": "Bergelombang",
     "luas_wilayah": 6.625,
     "total_penduduk": 76310,
     "link_peta": "https://drive.google.com/uc?export=download&id=1k11_qB799xTaDArTj-F-lXSkI5idm03k"
@@ -16,6 +22,9 @@
   {
     "kecamatan": "Gajahmungkur",
     "kelurahan": "-",
+    "jumlah_kelurahan": "8",
+    "batas_wilayah": "utara : Kecamatan Semarang Selatan; timur : Kecamatan Candisari; selatan : Kecamatan Banyumanik dan Kecamatan Gunungpati; barat : Kecamatan Semarang Barat;",
+    "karakteristik_topografi": "Bergelombang",
     "luas_wilayah": 9.635,
     "total_penduduk": 57741,
     "link_peta": "https://drive.google.com/uc?export=download&id=1W3PMADZpHcAGn0GsSgDWhr6Xwo86BnUE"
@@ -23,6 +32,9 @@
   {
     "kecamatan": "Gayamsari",
     "kelurahan": "-",
+    "jumlah_kelurahan": "7",
+    "batas_wilayah": "utara : Kecamatan Genuk; timur : Kecamatan Genuk dan Kecamatan Pedurungan; selatan : Kecamatan Semarang Selatan; barat : Kecamatan Semarang Timur;",
+    "karakteristik_topografi": "Dataran Rendah",
     "luas_wilayah": 6.445,
     "total_penduduk": 71402,
     "link_peta": "https://drive.google.com/uc?export=download&id=1tonjmgTMSAHsCEcphbWl6oYGvdzGMORw"
@@ -30,6 +42,9 @@
   {
     "kecamatan": "Genuk",
     "kelurahan": "-",
+    "jumlah_kelurahan": "13",
+    "batas_wilayah": "utara : Laut Jawa; timur : Kabupaten Demak; selatan : Kecamatan Pedurungan; barat : Kecamatan Gayamsari dan Kecamatan Semarang Utara;",
+    "karakteristik_topografi": "Dataran Rendah",
     "luas_wilayah": 27.317,
     "total_penduduk": 130149,
     "link_peta": "https://drive.google.com/uc?export=download&id=13uacI9iGmdncnaXtIh77AMuX8QU30nq5"
@@ -37,6 +52,9 @@
   {
     "kecamatan": "Gunungpati",
     "kelurahan": "-",
+    "jumlah_kelurahan": "16",
+    "batas_wilayah": "utara : Kecamatan Gajahmungkur dan Kecamatan Ngaliyan; timur : Kecamatan Banyumanik; selatan : Kabupaten Semarang; barat : Kecamatan Mijen;",
+    "karakteristik_topografi": "Perbukitan",
     "luas_wilayah": 59.767,
     "total_penduduk": 104174,
     "link_peta": "https://drive.google.com/uc?export=download&id=1_tHJDgsM3tfBOF7KZ71wUFpWI6s570N-"
@@ -44,6 +62,9 @@
   {
     "kecamatan": "Mijen",
     "kelurahan": "-",
+    "jumlah_kelurahan": "14",
+    "batas_wilayah": "utara : Kecamatan Ngaliyan; timur : Kecamatan Gunungpati; selatan : Kabupaten Kendal; barat : Kabupaten Kendal;",
+    "karakteristik_topografi": "Perbukitan",
     "luas_wilayah": 56.772,
     "total_penduduk": 84486,
     "link_peta": "https://drive.google.com/uc?export=download&id=1wUVrQAZVFMWCXYT-kocLYQ4fnRdhmqJ4"
@@ -51,6 +72,9 @@
   {
     "kecamatan": "Ngaliyan",
     "kelurahan": "-",
+    "jumlah_kelurahan": "10",
+    "batas_wilayah": "utara : Kecamatan Tugu; timur : Kecamatan Semarang Barat dan Kecamatan Gajahmungkur; selatan : Kecamatan Mijen dan Kecamatan Gunungpati; barat : Kabupaten Kendal;",
+    "karakteristik_topografi": "Bergelombang hingga perbukitan",
     "luas_wilayah": 44.8415,
     "total_penduduk": 144455,
     "link_peta": "https://drive.google.com/uc?export=download&id=16xjZDMVZz1YHYTzpWMNkHzBjZG_ziXt5"
@@ -58,6 +82,9 @@
   {
     "kecamatan": "Pedurungan",
     "kelurahan": "-",
+    "jumlah_kelurahan": "12",
+    "batas_wilayah": "utara : Kecamatan Genuk; timur : Kabupaten Demak; selatan : Kecamatan Tembalang; barat : Kecamatan Gayamsari;",
+    "karakteristik_topografi": "Dataran Rendah",
     "luas_wilayah": 21.722,
     "total_penduduk": 199876,
     "link_peta": "https://drive.google.com/uc?export=download&id=11eANL64ZITJKI59CSgaE-SUqV2C8xO0r"
@@ -65,6 +92,9 @@
   {
     "kecamatan": "Semarang Barat",
     "kelurahan": "-",
+    "jumlah_kelurahan": "16",
+    "batas_wilayah": "utara : Laut Jawa; timur : Kecamatan Semarang Utara, Semarang Tengah dan Semarang Selatan; selatan : Kecamatan Ngaliyan dan Kecamatan Gajahmungkur; barat : Kecamatan Tugu;",
+    "karakteristik_topografi": "Dataran Rendah",
     "luas_wilayah": 24.999,
     "total_penduduk": 151599,
     "link_peta": "https://drive.google.com/uc?export=download&id=15N1J1XMYSqs6s6l1bkAAJxjmBezkkI1l"
@@ -72,6 +102,9 @@
   {
     "kecamatan": "Semarang Selatan",
     "kelurahan": "-",
+    "jumlah_kelurahan": "10",
+    "batas_wilayah": "utara : Kecamatan Semarang Tengah dan Kecamatan Semarang Timur; timur : Kecamatan Gayamsari dan Kecamatan Pedurungan; selatan : Kecamatan Candisari dan Kecamatan Gajahmungkur; barat : Kecamatan Semarang Barat;",
+    "karakteristik_topografi": "Bergelombang",
     "luas_wilayah": 6.161,
     "total_penduduk": 65344,
     "link_peta": "https://drive.google.com/uc?export=download&id=1rMdPQEoogt0ww0IGzPVTvCGupyX0xiza"
@@ -79,6 +112,9 @@
   {
     "kecamatan": "Semarang Tengah",
     "kelurahan": "-",
+    "jumlah_kelurahan": "15",
+    "batas_wilayah": "utara : Kecamatan Semarang Utara; timur : Kecamatan Semarang Timur; selatan : Kecamatan Semarang Selatan; barat : Kecamatan Semarang Barat;",
+    "karakteristik_topografi": "Dataran Rendah",
     "luas_wilayah": 5.336,
     "total_penduduk": 56346,
     "link_peta": "https://drive.google.com/uc?export=download&id=1QAR0GixkraA0YpMAXGPw8fLx8yfJ1xjr"
@@ -86,6 +122,9 @@
   {
     "kecamatan": "Semarang Timur",
     "kelurahan": "-",
+    "jumlah_kelurahan": "10",
+    "batas_wilayah": "utara : Kecamatan Semarang Utara; timur : Kecamatan Gayamsari; selatan : Kecamatan Semarang Selatan; barat : Kecamatan Tengah;",
+    "karakteristik_topografi": "Dataran Rendah",
     "luas_wilayah": 5.576,
     "total_penduduk": 68038,
     "link_peta": "https://drive.google.com/uc?export=download&id=1qwZR-6kKttL366dsXYywQI7bWovWGRuu"
@@ -93,6 +132,9 @@
   {
     "kecamatan": "Semarang Utara",
     "kelurahan": "-",
+    "jumlah_kelurahan": "9",
+    "batas_wilayah": "utara : Laut Jawa; timur : Kecamatan Genuk; selatan : Kecamatan Semarang Timur dan Kecamatan Semarang Tengah; barat : Kecamatan Semarang Barat;",
+    "karakteristik_topografi": "Dataran Rendah Pesisir",
     "luas_wilayah": 12.017,
     "total_penduduk": 117639,
     "link_peta": "https://drive.google.com/uc?export=download&id=1869hVQhIV5KUU-ofagvYGwQJRcL3ie6m"
@@ -100,6 +142,9 @@
   {
     "kecamatan": "Tembalang",
     "kelurahan": "-",
+    "jumlah_kelurahan": "12",
+    "batas_wilayah": "utara : Kecamatan Candisari; timur : Kecamatan Pedurungan dan Kabupaten Demak; selatan : Kabupaten Semarang; barat : Kecamatan Banyumanik;",
+    "karakteristik_topografi": "Perbukitan bergelombang",
     "luas_wilayah": 40.728,
     "total_penduduk": 195653,
     "link_peta": "https://drive.google.com/uc?export=download&id=1wUVrQAZVFMWCXYT-kocLYQ4fnRdhmqJ4"
@@ -107,6 +152,9 @@
   {
     "kecamatan": "Tugu",
     "kelurahan": "-",
+    "jumlah_kelurahan": "7",
+    "batas_wilayah": "utara : Laut Jawa; timur : Kecamatan Semarang Barat; selatan : Kecamatan Ngaliyan; barat : Kabupaten Kendal;",
+    "karakteristik_topografi": "Dataran Rendah Pesisir",
     "luas_wilayah": 29.196,
     "total_penduduk": 33848,
     "link_peta": "https://drive.google.com/uc?export=download&id=11Pa5bOs0Ppl8t4JzQ5wjYFvQ7tRDlGux"
@@ -114,6 +162,9 @@
   {
     "kecamatan": "Gunungpati",
     "kelurahan": "Sumurrejo",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Mangunsari dan Pakintelan; timur : Kelurahan Pudakpayung; selatan : Kabupaten Semarang; barat : Kelurahan Plalangan;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 3.68,
     "total_penduduk": 3556,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.12.1014.pdf"
@@ -121,6 +172,9 @@
   {
     "kecamatan": "Mijen",
     "kelurahan": "Karangmalang",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Polaman; timur : Kabupaten Kendal; selatan : Kabupaten Kendal.; barat : Kelurahan Bubakan;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 1.97,
     "total_penduduk": 2819,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.14.1003.pdf"
@@ -128,6 +182,9 @@
   {
     "kecamatan": "Mijen",
     "kelurahan": "Bubakan",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Tambangan dan Purwosari; timur : Kelurahan Karangmalang dan Polaman; selatan : Kabupaten Kendal.; barat : Kelurahan Cangkringan dan Tambangan;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 2.51,
     "total_penduduk": 4073,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.14.1002.pdf"
@@ -135,6 +192,9 @@
   {
     "kecamatan": "Mijen",
     "kelurahan": "Polaman",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Purwosari dan Cepoko; timur : Kelurahan Cepoko dan Kabupaten Kendal; selatan : Kelurahan Karangmalang; barat : Kelurahan Bubakan;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 1.78,
     "total_penduduk": 1972,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.14.1004.pdf"
@@ -142,6 +202,9 @@
   {
     "kecamatan": "Gunungpati",
     "kelurahan": "Plalangan",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Nongkosawit dan Ngijo; timur : Kelurahan Mangunsari dan Sumurrejo; selatan : Kabupaten Semarang; barat : Kelurahan Gunungpati;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 3.54,
     "total_penduduk": 7050,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.12.1003.pdf"
@@ -149,6 +212,9 @@
   {
     "kecamatan": "Mijen",
     "kelurahan": "Cangkiran",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Jatisari; timur : Kelurahan Tambangan dan Bubakan; selatan : Kabupaten Kendal; barat : Kabupaten Kendal;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 2.4,
     "total_penduduk": 5144,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.14.1001.pdf"
@@ -156,6 +222,9 @@
   {
     "kecamatan": "Banyumanik",
     "kelurahan": "Pudakpayung",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Banyumanik; timur : Kelurahan Gedawang dan Kabupaten Semarang; selatan : Kabupaten Semarang; barat : Kelurahan Pakintelan dan Sumurrejo;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 6.18,
     "total_penduduk": 24907,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.11.1001.pdf"
@@ -163,6 +232,9 @@
   {
     "kecamatan": "Gunungpati",
     "kelurahan": "Pakintelan",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Patemon; timur : Kelurahan Banyumanik dan Pudakpayung; selatan : Kelurahan Sumurrejo; barat : Kelurahan Mangunsari;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 3.76,
     "total_penduduk": 6615,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.12.1001.pdf"
@@ -170,6 +242,9 @@
   {
     "kecamatan": "Banyumanik",
     "kelurahan": "Gedawang",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Padangsari dan Jabungan; timur : Kelurahan Jabungan; selatan : Kelurahan Pudakpayung dan Kabupaten Semarang; barat : Kelurahan Banyumanik dan Pudakpayung;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 3.82,
     "total_penduduk": 11443,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.11.1002.pdf"
@@ -177,6 +252,9 @@
   {
     "kecamatan": "Gunungpati",
     "kelurahan": "Mangunsari",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Ngijo; timur : Kelurahan Patemon dan Pakintelan; selatan : Kelurahan Sumurrejo; barat : Kelurahan Plalangan;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 3.39,
     "total_penduduk": 4293,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.12.1002.pdf"
@@ -184,6 +262,9 @@
   {
     "kecamatan": "Gunungpati",
     "kelurahan": "Gunungpati",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Cepoko dan Nongkosawit; timur : Kelurahan Plalangan; selatan : Kabupaten Semarang; barat : Kabupaten Kendal;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 4.86,
     "total_penduduk": 4320,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.12.1004.pdf"
@@ -191,6 +272,9 @@
   {
     "kecamatan": "Banyumanik",
     "kelurahan": "Banyumanik",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Srondol Wetan, Srondol Kulon, dan Padangsari; timur : Kelurahan Gedawang dan Padangsari; selatan : Kelurahan Pudakpayung; barat : Kelurahan Pakintelan dan Patemon;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 1.82,
     "total_penduduk": 12702,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.11.1005.pdf"
@@ -198,6 +282,9 @@
   {
     "kecamatan": "Banyumanik",
     "kelurahan": "Jabungan",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Kramas dan Meteseh; timur : Kabupaten Semarang; selatan : Kelurahan Gedawang dan Kabupaten Semarang; barat : Kelurahan Padangsari dan Gedawang;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 3.88,
     "total_penduduk": 4819,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.11.1003.pdf"
@@ -205,6 +292,9 @@
   {
     "kecamatan": "Banyumanik",
     "kelurahan": "Padangsari",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Pedalangan dan Kramas; timur : Kelurahan Jabungan; selatan : Kelurahan Gedawang; barat : Kelurahan Banyumanik dan Srondol Wetan;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 1.29,
     "total_penduduk": 12262,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.11.1010.pdf"
@@ -212,6 +302,9 @@
   {
     "kecamatan": "Mijen",
     "kelurahan": "Purwosari",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Mijen dan Jatibarang; timur : Kelurahan Cepoko; selatan : Kelurahan Bubakan dan Polaman; barat : Kelurahan Tambangan;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 4.38,
     "total_penduduk": 5190,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.14.1005.pdf"
@@ -219,6 +312,9 @@
   {
     "kecamatan": "Mijen",
     "kelurahan": "Tambangan",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Mijen dan Jatisari; timur : Kelurahan Purwosari; selatan : Kelurahan Bubakan; barat : Kelurahan Cangkiran dan Jatisari;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 2.84,
     "total_penduduk": 5464,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.14.1006.pdf"
@@ -226,6 +322,9 @@
   {
     "kecamatan": "Tembalang",
     "kelurahan": "Kramas",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Bulusan; timur : Kelurahan Meteseh; selatan : Kelurahan Jabungan; barat : Kelurahan Padangsari dan Pedalangan;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 1.15,
     "total_penduduk": 4631,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.10.1005.pdf"
@@ -233,6 +332,9 @@
   {
     "kecamatan": "Gunungpati",
     "kelurahan": "Cepoko",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Kandri dan Jatirejo; timur : Kelurahan Nongkosawit dan Gunungpati; selatan : Kelurahan Polaman, Gunungpati, dan Kabupaten Kendal; barat : Kelurahan Purwosari dan Jatibarang;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 2.83,
     "total_penduduk": 6414,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.12.1012.pdf"
@@ -240,6 +342,9 @@
   {
     "kecamatan": "Gunungpati",
     "kelurahan": "Nongkosawit",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Pongangan; timur : Kelurahan Ngijo; selatan : Kelurahan Plalangan dan Gunungpati; barat : Kelurahan Cepoko;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 2.38,
     "total_penduduk": 5832,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.12.1005.pdf"
@@ -247,6 +352,9 @@
   {
     "kecamatan": "Banyumanik",
     "kelurahan": "Srondol Wetan",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Sumurboto dan Pedalangan; timur : Kelurahan Pedalangan dan Padangsari; selatan : Kelurahan Banyumanik; barat : Kelurahan Srondol Kulon;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 1.94,
     "total_penduduk": 21125,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.11.1007.pdf"
@@ -254,6 +362,9 @@
   {
     "kecamatan": "Mijen",
     "kelurahan": "Jatisari",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Wonoplumbon dan Wonolopo; timur : Kelurahan Mijen dan Tambangan; selatan : Kelurahan Cangkiran; barat : Kabupaten Kendal;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 2.48,
     "total_penduduk": 12834,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.14.1013.pdf"
@@ -261,6 +372,9 @@
   {
     "kecamatan": "Gunungpati",
     "kelurahan": "Patemon",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Sekaran; timur : Kelurahan Srondol Kulon dan Banyumanik; selatan : Kelurahan Pakintelan; barat : Kelurahan Mangunsari, Ngijo, dan Kalisegoro;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 3.6,
     "total_penduduk": 6416,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.12.1008.pdf"
@@ -268,6 +382,9 @@
   {
     "kecamatan": "Gunungpati",
     "kelurahan": "Ngijo",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Kalisegoro; timur : Kelurahan Patemon; selatan : Kelurahan Mangunsari dan Plalangan; barat : Kelurahan Nongkosawit dan Pongangan;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 3.01,
     "total_penduduk": 6224,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.12.1007.pdf"
@@ -275,6 +392,9 @@
   {
     "kecamatan": "Banyumanik",
     "kelurahan": "Pedalangan",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Sumurboto dan Tembalang; timur : Kelurahan Kramas, Bulusan, dan Tembalang; selatan : Kelurahan Padangsari; barat : Kelurahan Srondol Wetan;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 2.44,
     "total_penduduk": 12032,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.11.1004.pdf"
@@ -282,6 +402,9 @@
   {
     "kecamatan": "Tembalang",
     "kelurahan": "Rowosari",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kabupaten Demak; timur : Kabupaten Demak; selatan : Kabupaten Semarang; barat : Kelurahan Meteseh;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 7.83,
     "total_penduduk": 14302,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.10.1002.pdf"
@@ -289,6 +412,9 @@
   {
     "kecamatan": "Mijen",
     "kelurahan": "Mijen",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Jatibarang, Pesantren, dan Ngadirgo; timur : Kelurahan Jatibarang; selatan : Kelurahan Purwosari dan Tambangan; barat : Kelurahan Jatisari, Wonolopo, dan Ngadirgo;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 4.25,
     "total_penduduk": 8036,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.14.1008.pdf"
@@ -296,6 +422,9 @@
   {
     "kecamatan": "Tembalang",
     "kelurahan": "Meteseh",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Mangunharjo dan Sendangmulyo; timur : Kelurahan Rowosari; selatan : Kelurahan Jabungan dan Kabupaten Semarang; barat : Kelurahan Kramas dan Kelurahan Bulusan;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 5.63,
     "total_penduduk": 24948,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.10.1001.pdf"
@@ -303,6 +432,9 @@
   {
     "kecamatan": "Banyumanik",
     "kelurahan": "Sumurboto",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Tinjomoyo dan Ngesrep; timur : Kelurahan Pedalangan dan Tembalang; selatan : Kelurahan Srondol Wetan dan Pedalangan; barat : Kelurahan Srondol Kulon;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 1.72,
     "total_penduduk": 9482,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.11.1011.pdf"
@@ -310,6 +442,9 @@
   {
     "kecamatan": "Tembalang",
     "kelurahan": "Bulusan",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Mangunharjo; timur : Kelurahan Meteseh; selatan : Kelurahan Meteseh dan Kramas; barat : Kelurahan Tembalang;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 4.43,
     "total_penduduk": 6564,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.10.1004.pdf"
@@ -317,6 +452,9 @@
   {
     "kecamatan": "Gunungpati",
     "kelurahan": "Jatirejo",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Kedungpane dan Kandri; timur : Kelurahan Kandri dan Cepoko; selatan : Kelurahan Cepoko dan Jatibarang; barat : Kelurahan Jatibarang dan Kedungpane;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 2.27,
     "total_penduduk": 2408,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.12.1013.pdf"
@@ -324,6 +462,9 @@
   {
     "kecamatan": "Mijen",
     "kelurahan": "Jatibarang",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Kedungpane dan Pesantren; timur : Kelurahan Jatirejo dan Kedungpane; selatan : Kelurahan Purwosari, Mijen, dan Cepoko; barat : Kelurahan Mijen dan Pesantren;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 2.99,
     "total_penduduk": 3684,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.14.1009.pdf"
@@ -331,6 +472,9 @@
   {
     "kecamatan": "Mijen",
     "kelurahan": "Wonolopo",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Ngadirgo; timur : Kelurahan Mijen dan Ngadirgo; selatan : Kelurahan Jatisari; barat : Kelurahan Wonoplumbon;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 3.55,
     "total_penduduk": 11428,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.14.1007.pdf"
@@ -338,6 +482,9 @@
   {
     "kecamatan": "Banyumanik",
     "kelurahan": "Srondol Kulon",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Tinjomoyo; timur : Kelurahan Sumurboto dan Srondol Wetan; selatan : Kelurahan Banyumanik; barat : Kelurahan Sekaran dan Patemon;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 3.43,
     "total_penduduk": 13108,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.11.1006.pdf"
@@ -345,6 +492,9 @@
   {
     "kecamatan": "Gunungpati",
     "kelurahan": "Kalisegoro",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Sekaran; timur : Kelurahan Sekaran dan Patemon; selatan : Kelurahan Ngijo; barat : Kelurahan Pongangan;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 3.42,
     "total_penduduk": 8088,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.12.1015.pdf"
@@ -352,6 +502,9 @@
   {
     "kecamatan": "Gunungpati",
     "kelurahan": "Pongangan",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Sadeng; timur : Kelurahan Kalisegoro dan Ngijo; selatan : Kelurahan Nongkosawit dan Ngijo; barat : Kelurahan Kandri;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 3.67,
     "total_penduduk": 9354,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.12.1006.pdf"
@@ -359,6 +512,9 @@
   {
     "kecamatan": "Tembalang",
     "kelurahan": "Tembalang",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Jangli dan Sambiroto; timur : Kelurahan Sambiroto, Bulusan, dan Mangunharjo; selatan : Kelurahan Bulusan dan Pedalangan; barat : Kelurahan Sumurboto dan Ngesrep;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 3.54,
     "total_penduduk": 5833,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.10.1006.pdf"
@@ -366,6 +522,9 @@
   {
     "kecamatan": "Gunungpati",
     "kelurahan": "Sekaran",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Sukorejo; timur : Kelurahan Srondol Kulon; selatan : Kelurahan Patemon dan Kalisegoro; barat : Kelurahan Sadeng, Kalisegoro, dan Pongangan;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 5.98,
     "total_penduduk": 5131,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.12.1009.pdf"
@@ -373,6 +532,9 @@
   {
     "kecamatan": "Tembalang",
     "kelurahan": "Mangunharjo",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Sambiroto dan Sendangmulyo; timur : Kelurahan Sendangmulyo; selatan : Kelurahan Meteseh dan Bulusan; barat : Kelurahan Tembalang dan Sambiroto;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 2.57,
     "total_penduduk": 13060,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.10.1003.pdf"
@@ -380,6 +542,9 @@
   {
     "kecamatan": "Banyumanik",
     "kelurahan": "Ngesrep",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Jatingaleh dan Karanganyar Gunung; timur : Kelurahan Jangli dan      Tembalang; selatan : Kelurahan Sumurboto; barat : Kelurahan Tinjomoyo;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 2.63,
     "total_penduduk": 14163,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.11.1008.pdf"
@@ -387,6 +552,9 @@
   {
     "kecamatan": "Gunungpati",
     "kelurahan": "Kandri",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Kedungpane dan Sadeng; timur : Kelurahan Pongangan dan Sadeng; selatan : Kelurahan Cepoko dan Nongkosawit; barat : Kelurahan Jatirejo dan Kedungpane;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 4.19,
     "total_penduduk": 7931,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.12.1016.pdf"
@@ -394,6 +562,9 @@
   {
     "kecamatan": "Tembalang",
     "kelurahan": "Sendangmulyo",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Kedungmundu dan Pedurungan Kidul; timur : Kelurahan Pedurungan Kidul dan Kabupaten Demak; selatan : Kelurahan Meteseh dan Kabupaten Demak; barat : Kelurahan Mangunharjo dan Sambiroto;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 4.45,
     "total_penduduk": 40373,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.10.1011.pdf"
@@ -401,6 +572,9 @@
   {
     "kecamatan": "Banyumanik",
     "kelurahan": "Tinjomoyo",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Karangrejo dan Bendan Dhuwur; timur : Kelurahan Ngesrep dan Sumurboto; selatan : Kelurahan Srondol Kulon; barat : Kelurahan Sekaran dan Sukorejo;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 2.69,
     "total_penduduk": 9665,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.11.1009.pdf"
@@ -408,6 +582,9 @@
   {
     "kecamatan": "Mijen",
     "kelurahan": "Ngadirgo",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Podorejo; timur : Kelurahan Pesantren; selatan : Kelurahan Wonolopo dan Mijen; barat : Kelurahan Wonoplumbon;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 4.16,
     "total_penduduk": 7457,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.14.1011.pdf"
@@ -415,6 +592,9 @@
   {
     "kecamatan": "Tembalang",
     "kelurahan": "Sambiroto",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Kedungmundu dan Tandang; timur : Kelurahan Sendangmulyo dan Mangunharjo; selatan : Kelurahan Mangunharjo dan Tembalang; barat : Kelurahan Tandang dan Jangli;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 2.51,
     "total_penduduk": 16306,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.10.1012.pdf"
@@ -422,6 +602,9 @@
   {
     "kecamatan": "Gajahmungkur",
     "kelurahan": "Karangrejo",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Gajahmungkur; timur : Kelurahan Kaliwiru dan Jatingaleh; selatan : Kelurahan Tinjomoyo; barat : Kelurahan Bendan Dhuwur dan Gajahmungkur;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 1.29,
     "total_penduduk": 6786,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.09.1001.pdf"
@@ -429,6 +612,9 @@
   {
     "kecamatan": "Mijen",
     "kelurahan": "Pesantren",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Wates; timur : Kelurahan Kedungpane dan Jatibarang; selatan : Kelurahan Jatibarang, Ngadirgo, dan Mijen; barat : Kelurahan Ngadirgo dan Podorejo;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 6.34,
     "total_penduduk": 3296,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.14.1014.pdf"
@@ -436,6 +622,9 @@
   {
     "kecamatan": "Gunungpati",
     "kelurahan": "Sadeng",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Kalipancur dan Bambankerep; timur : Kelurahan Sukorejo dan Sekaran; selatan : Kelurahan Pongangan dan Kandri; barat : Kelurahan Kedungpane dan Kandri;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 4.55,
     "total_penduduk": 15428,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.12.1011.pdf"
@@ -443,6 +632,9 @@
   {
     "kecamatan": "Candisari",
     "kelurahan": "Jatingaleh",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Kaliwiru dan Karanganyar Gunung; timur : Kelurahan Karanganyar Gunung; selatan : Kelurahan Ngesrep; barat : Kelurahan Karangrejo dan Kaliwiru;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 1.2,
     "total_penduduk": 11385,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.08.1002.pdf"
@@ -450,6 +642,9 @@
   {
     "kecamatan": "Gunungpati",
     "kelurahan": "Sukorejo",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Kalipancur dan Bendan Dhuwur; timur : Kelurahan Tinjomoyo dan Bendan Dhuwur; selatan : Kelurahan Sekaran; barat : Kelurahan Sadeng;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 4.68,
     "total_penduduk": 5114,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.12.1010.pdf"
@@ -457,6 +652,9 @@
   {
     "kecamatan": "Tembalang",
     "kelurahan": "Kedungmundu",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Sendangguwo, Pedurungan Kidul, dan Gemah; timur : Kelurahan Pedurungan Kidul; selatan : Kelurahan Sendangmulyo dan Sambiroto; barat : Kelurahan Tandang dan Sendangguwo;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 1.87,
     "total_penduduk": 13086,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.10.1009.pdf"
@@ -464,6 +662,9 @@
   {
     "kecamatan": "Candisari",
     "kelurahan": "Kaliwiru",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Wonotingal dan Candi; timur : Kelurahan Karanganyar Gunung dan Jatingaleh; selatan : Kelurahan Jatingaleh dan Karangrejo; barat : Kelurahan Karangrejo dan Kelurahan Gajahmungkur;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 0.53,
     "total_penduduk": 2985,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.08.1003.pdf"
@@ -471,6 +672,9 @@
   {
     "kecamatan": "Pedurungan",
     "kelurahan": "Plamongansari",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Penggaron Kidul dan Pedurungan Lor; timur : Kabupaten Demak; selatan : Kabupaten Demak; barat : Kelurahan Pedurungan Kidul;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 2.63,
     "total_penduduk": 15057,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.06.1006.pdf"
@@ -478,6 +682,9 @@
   {
     "kecamatan": "Gajahmungkur",
     "kelurahan": "Bendan Dhuwur",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Sampangan, Gajahmungkur, dan Bendan Ngisor; timur : Kelurahan Gajahmungkur dan Karangrejo; selatan : Kelurahan Tinjomoyo dan Sukorejo; barat : Kelurahan Kalipancur;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 1.03,
     "total_penduduk": 4238,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.09.1002.pdf"
@@ -485,6 +692,9 @@
   {
     "kecamatan": "Tembalang",
     "kelurahan": "Jangli",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Jomblang dan Tandang; timur : Kelurahan Tandang dan Sambiroto; selatan : Kelurahan Tembalang dan Ngesrep; barat : Kelurahan Ngesrep dan Karanganyar Gunung;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 3.38,
     "total_penduduk": 8310,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.10.1007.pdf"
@@ -492,6 +702,9 @@
   {
     "kecamatan": "Mijen",
     "kelurahan": "Kedungpane",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Ngaliyan dan Bambankerep; timur : Kelurahan Sadeng dan Kandri; selatan : Kelurahan Jatirejo dan Jatibarang; barat : Kelurahan Pesantren dan Wates;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 7.08,
     "total_penduduk": 8561,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.14.1010.pdf"
@@ -499,6 +712,9 @@
   {
     "kecamatan": "Candisari",
     "kelurahan": "Karanganyar Gunung",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Candi dan Jomblang; timur : Kelurahan Jangli; selatan : Kelurahan Ngesrep; barat : Kelurahan Jatingaleh dan Kaliwiru;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 1.12,
     "total_penduduk": 10904,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.08.1005.pdf"
@@ -506,6 +722,9 @@
   {
     "kecamatan": "Mijen",
     "kelurahan": "Wonoplumbon",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kabupaten Kendal dan Kelurahan Podorejo; timur : Kelurahan Ngadirgo, Podorejo, dan Wonolopo; selatan : Kabupaten Kendal dan Kelurahan Jatisari; barat : Kabupaten Kendal;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 10.08,
     "total_penduduk": 4528,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.14.1012.pdf"
@@ -513,6 +732,9 @@
   {
     "kecamatan": "Tembalang",
     "kelurahan": "Tandang",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Sendangguwo; timur : Kelurahan Sambiroto dan Kedungmundu; selatan : Kelurahan Jangli dan Sambirejo; barat : Kelurahan Jomblang;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 1.94,
     "total_penduduk": 24961,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.10.1008.pdf"
@@ -520,6 +742,9 @@
   {
     "kecamatan": "Pedurungan",
     "kelurahan": "Pedurungan Kidul",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Pedurungan Lor dan Pedurungan Tengah; timur : Kelurahan Plamongansari; selatan : Kelurahan Kedungmundu dan Sendangmulyo; barat : Kelurahan Gemah, Kedungmundu, dan Sendangmulyo;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 1.49,
     "total_penduduk": 14715,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.06.1008.pdf"
@@ -527,6 +752,9 @@
   {
     "kecamatan": "Candisari",
     "kelurahan": "Jomblang",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Lamper Kidul dan Lamper Tengah; timur : Kelurahan Tandang dan Jangli; selatan : Kelurahan Karanganyar Gunung dan Jangli; barat : Kelurahan Candi;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 1.26,
     "total_penduduk": 19602,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.08.1004.pdf"
@@ -534,6 +762,9 @@
   {
     "kecamatan": "Candisari",
     "kelurahan": "Wonotingal",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Lempongsari dan Tegalsari; timur : Kelurahan Candi; selatan : Kelurahan Kaliwiru; barat : Kelurahan Gajahmungkur;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 0.82,
     "total_penduduk": 7608,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.08.1007.pdf"
@@ -541,6 +772,9 @@
   {
     "kecamatan": "Tembalang",
     "kelurahan": "Sendangguwo",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Gemah; timur : Kelurahan Kedungmundu; selatan : Kelurahan Kedungmundu dan Tandang; barat : Kelurahan Lamper Tengah;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 1.45,
     "total_penduduk": 23279,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.10.1010.pdf"
@@ -548,6 +782,9 @@
   {
     "kecamatan": "Gajahmungkur",
     "kelurahan": "Sampangan",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Ngemplak Simongan dan Petompon; timur : Kelurahan Bendan Ngisor; selatan : Kelurahan Bendan Dhuwur; barat : Kelurahan Manyaran;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 0.98,
     "total_penduduk": 10611,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.09.1004.pdf"
@@ -555,6 +792,9 @@
   {
     "kecamatan": "Gajahmungkur",
     "kelurahan": "Bendan Ngisor",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Petompon; timur : Kelurahan Gajahmungkur; selatan : Kelurahan Bendan Dhuwur; barat : Kelurahan Sampangan;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 0.9,
     "total_penduduk": 5679,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.09.1003.pdf"
@@ -562,6 +802,9 @@
   {
     "kecamatan": "Semarang Selatan",
     "kelurahan": "Lamper Kidul",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Lamper Lor dan Peterongan; timur : Kelurahan Lamper Tengah; selatan : Kelurahan Jomblang; barat : Kelurahan Candi;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 0.43,
     "total_penduduk": 4050,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.07.1009.pdf"
@@ -569,6 +812,9 @@
   {
     "kecamatan": "Candisari",
     "kelurahan": "Candi",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Wonodri; timur : Kelurahan Lamper Kidul dan Jomblang; selatan : Kelurahan Karanganyar Gunung dan Kaliwiru; barat : Kelurahan Wonotingal dan Tegalsari;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 0.68,
     "total_penduduk": 10931,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.08.1001.pdf"
@@ -576,6 +822,9 @@
   {
     "kecamatan": "Gajahmungkur",
     "kelurahan": "Gajahmungkur",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Petompon, Bendungan, dan Lempongsari; timur : Kelurahan Wonotingal dan Kaliwiru; selatan : Kelurahan Karangrejo; barat : Kelurahan Bendan Ngisor dan Bendan Dhuwur;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 3.24,
     "total_penduduk": 15440,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.09.1005.pdf"
@@ -583,6 +832,9 @@
   {
     "kecamatan": "Pedurungan",
     "kelurahan": "Gemah",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Palebon, Pedurungan Tengah, dan Kalicari; timur : Kelurahan Pedurungan Kidul; selatan : Kelurahan Sendangguwo dan Kedungmundu; barat : Kelurahan Gayamsari;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 1.26,
     "total_penduduk": 16134,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.06.1007.pdf"
@@ -590,6 +842,9 @@
   {
     "kecamatan": "Pedurungan",
     "kelurahan": "Pedurungan Lor",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Tlogomulyo; timur : Kelurahan Penggaron Kidul; selatan : Kelurahan Pedurungan Kidul dan Plamongansari; barat : Kelurahan Pedurungan Tengah;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 1.49,
     "total_penduduk": 10468,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.06.1009.pdf"
@@ -597,6 +852,9 @@
   {
     "kecamatan": "Semarang Selatan",
     "kelurahan": "Lamper Tengah",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Pandean Lamper dan Gayamsari; timur : Kelurahan Sendangguwo; selatan : Kelurahan Jomblang; barat : Kelurahan Lamper Kidul dan Lamper Lor;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 0.74,
     "total_penduduk": 11896,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.07.1010.pdf"
@@ -604,6 +862,9 @@
   {
     "kecamatan": "Ngaliyan",
     "kelurahan": "Kalipancur",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Purwoyoso, Manyaran, dan Kembangarum; timur : Kelurahan Manyaran dan Bendan Dhuwur; selatan : Kelurahan Sukorejo dan Sadeng; barat : Kelurahan Bambankerep;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 2.27,
     "total_penduduk": 21048,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.15.1005.pdf"
@@ -611,6 +872,9 @@
   {
     "kecamatan": "Ngaliyan",
     "kelurahan": "Wates",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Gondoriyo dan Bringin; timur : Kelurahan Ngaliyan dan Kedungpane; selatan : Kelurahan Pesantren; barat : Kelurahan Podorejo;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 5.03,
     "total_penduduk": 6336,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.15.1010.pdf"
@@ -618,6 +882,9 @@
   {
     "kecamatan": "Semarang Selatan",
     "kelurahan": "Lamper Lor",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Pandean Lamper; timur : Kelurahan Lamper Tengah; selatan : Kelurahan Lamper Kidul; barat : Kelurahan Peterongan;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 0.35,
     "total_penduduk": 5548,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.07.1008.pdf"
@@ -625,6 +892,9 @@
   {
     "kecamatan": "Ngaliyan",
     "kelurahan": "Bambankerep",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Purwoyoso; timur : Kelurahan Kalipancur; selatan : Kelurahan Sadeng dan Kedungpane; barat : Kelurahan Ngaliyan;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 3.34,
     "total_penduduk": 6409,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.15.1006.pdf"
@@ -632,6 +902,9 @@
   {
     "kecamatan": "Pedurungan",
     "kelurahan": "Penggaron Kidul",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kabupaten Demak; timur : Kabupaten Demak; selatan : Kelurahan Plamongansari; barat : Kelurahan Pedurungan Lor dan Tlogomulyo;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 2.28,
     "total_penduduk": 8041,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.06.1001.pdf"
@@ -639,6 +912,9 @@
   {
     "kecamatan": "Candisari",
     "kelurahan": "Tegalsari",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Pleburan dan Wonodri; timur : Kelurahan Candi; selatan : Kelurahan Wonotingal; barat : Kelurahan Lempongsari;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 1.03,
     "total_penduduk": 12895,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.08.1006.pdf"
@@ -646,6 +922,9 @@
   {
     "kecamatan": "Semarang Barat",
     "kelurahan": "Manyaran",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Kalibanteng Kidul, Gisikdrono, dan Ngemplak Simongan; timur : Kelurahan Sampangan; selatan : Kelurahan Kalipancur; barat : Kelurahan Kembangarum;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 1.77,
     "total_penduduk": 18174,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.13.1002.pdf"
@@ -653,6 +932,9 @@
   {
     "kecamatan": "Gajahmungkur",
     "kelurahan": "Lempongsari",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Mugasari dan Randusari; timur : Kelurahan Tegalsari; selatan : Kelurahan Gajahmungkur dan Wonotingal; barat : Kelurahan Bendungan;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 0.84,
     "total_penduduk": 5361,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.09.1006.pdf"
@@ -660,6 +942,9 @@
   {
     "kecamatan": "Gajahmungkur",
     "kelurahan": "Bendungan",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Randusari; timur : Kelurahan Lempongsari; selatan : Kelurahan Gajahmungkur; barat : Kelurahan Petompon;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 0.46,
     "total_penduduk": 3841,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.09.1008.pdf"
@@ -667,6 +952,9 @@
   {
     "kecamatan": "Pedurungan",
     "kelurahan": "Pedurungan Tengah",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Tlogosari Wetan dan Tlogomulyo; timur : Kelurahan Pedurungan Lor; selatan : Kelurahan Pedurungan Kidul dan Gemah; barat : Kelurahan Tlogosari Kulon dan Palebon;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 1.85,
     "total_penduduk": 16992,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.06.1010.pdf"
@@ -674,6 +962,9 @@
   {
     "kecamatan": "Gajahmungkur",
     "kelurahan": "Petompon",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Barusari dan Randusari; timur : Kelurahan Bendungan; selatan : Kelurahan Gajahmungkur, Sampangan, dan Bendan Ngisor; barat : Kelurahan Ngemplak Simongan;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 0.9,
     "total_penduduk": 5785,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.09.1007.pdf"
@@ -681,6 +972,9 @@
   {
     "kecamatan": "Ngaliyan",
     "kelurahan": "Bringin",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Tambakaji dan Gondoriyo; timur : Kelurahan Ngaliyan; selatan : Kelurahan Wates; barat : Kelurahan Gondoriyo;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 2.96,
     "total_penduduk": 18502,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.15.1003.pdf"
@@ -688,6 +982,9 @@
   {
     "kecamatan": "Semarang Selatan",
     "kelurahan": "Peterongan",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Karangturi dan Karangtempel; timur : Kelurahan Lamper Lor dan Pandean Lamper; selatan : Kelurahan Lamper Kidul; barat : Kelurahan Wonodri;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 0.6,
     "total_penduduk": 5865,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.07.1007.pdf"
@@ -695,6 +992,9 @@
   {
     "kecamatan": "Ngaliyan",
     "kelurahan": "Ngaliyan",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Purwoyoso dan Tambakaji; timur : Kelurahan Bambankerep; selatan : Kelurahan Kedungpane; barat : Kelurahan Wates, Tambakaji, dan Bringin;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 5.29,
     "total_penduduk": 13085,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.15.1007.pdf"
@@ -702,6 +1002,9 @@
   {
     "kecamatan": "Semarang Selatan",
     "kelurahan": "Wonodri",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Karang Kidul; timur : Kelurahan Peterongan; selatan : Kelurahan Candi dan Tegalsari; barat : Kelurahan Pleburan;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 0.73,
     "total_penduduk": 9445,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.07.1006.pdf"
@@ -709,6 +1012,9 @@
   {
     "kecamatan": "Pedurungan",
     "kelurahan": "Palebon",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Tlogosari Kulon; timur : Kelurahan Pedurungan Tengah; selatan : Kelurahan Gemah; barat : Kelurahan Kalicari;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 1.4,
     "total_penduduk": 14986,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.06.1011.pdf"
@@ -716,6 +1022,9 @@
   {
     "kecamatan": "Semarang Barat",
     "kelurahan": "Ngemplak Simongan",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Bojongsalaman dan Bongsari; timur : Kelurahan Barusari dan Petompon; selatan : Kelurahan Sampangan, Petompon, dan Manyaran; barat : Kelurahan Bongsari dan Gisikdrono;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 0.84,
     "total_penduduk": 12742,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.13.1001.pdf"
@@ -723,6 +1032,9 @@
   {
     "kecamatan": "Gayamsari",
     "kelurahan": "Gayamsari",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Siwalan; timur : Kelurahan Kalicari dan Gemah; selatan : Kelurahan Lamper Tengah; barat : Kelurahan Pandean Lamper;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 1.22,
     "total_penduduk": 12055,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.04.1007.pdf"
@@ -730,6 +1042,9 @@
   {
     "kecamatan": "Semarang Selatan",
     "kelurahan": "Pleburan",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Karang Kidul dan Pekunden; timur : Kelurahan Wonodri; selatan : Kelurahan Tegalsari; barat : Kelurahan Mugasari;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 0.81,
     "total_penduduk": 4156,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.07.1005.pdf"
@@ -737,6 +1052,9 @@
   {
     "kecamatan": "Gayamsari",
     "kelurahan": "Pandean Lamper",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Sambirejo; timur : Kelurahan Gayamsari; selatan : Kelurahan Lamper Tengah dan Lamper Lor; barat : Kelurahan Karangtempel dan Peterongan;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 1.07,
     "total_penduduk": 1408,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.04.1006.pdf"
@@ -744,6 +1062,9 @@
   {
     "kecamatan": "Semarang Barat",
     "kelurahan": "Bongsari",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Salamanmloyo, Gisikdrono, dan Bojongsalaman; timur : Kelurahan Ngemplak Simongan dan Bojongsalaman; selatan : Kelurahan Ngemplak Simongan; barat : Kelurahan Gisikdrono;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 0.86,
     "total_penduduk": 12541,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.13.1008.pdf"
@@ -751,6 +1072,9 @@
   {
     "kecamatan": "Ngaliyan",
     "kelurahan": "Purwoyoso",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Jekarah dan Krapyak; timur : Kelurahan Kembangarum; selatan : Kelurahan Kalipancur, Bambankerep, dan Ngaliyan; barat : Kelurahan Tambakaji;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 2.11,
     "total_penduduk": 15275,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.15.1004.pdf"
@@ -758,6 +1082,9 @@
   {
     "kecamatan": "Semarang Selatan",
     "kelurahan": "Mugasari",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Pekunden; timur : Kelurahan Pleburan; selatan : Kelurahan Lempongsari; barat : Kelurahan Randusari;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 0.81,
     "total_penduduk": 7028,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.07.1004.pdf"
@@ -765,6 +1092,9 @@
   {
     "kecamatan": "Semarang Barat",
     "kelurahan": "Kembangarum",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Krapyak; timur : Kelurahan Kalibanteng Kulon, Kalibanteng Kidul, dan Manyaran; selatan : Kelurahan Kalipancur dan Manyaran; barat : Kelurahan Purwoyoso;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 1.89,
     "total_penduduk": 19401,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.13.1016.pdf"
@@ -772,6 +1102,9 @@
   {
     "kecamatan": "Semarang Tengah",
     "kelurahan": "Karang Kidul",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Jagalan dan Brumbungan; timur : Kelurahan Karangturi; selatan : Kelurahan Wonodri dan Kelurahan Pleburan; barat : Kelurahan Pekunden;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 0.51,
     "total_penduduk": 3768,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.01.1012.pdf"
@@ -779,6 +1112,9 @@
   {
     "kecamatan": "Semarang Timur",
     "kelurahan": "Karangtempel",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Rejosari; timur : Kelurahan Pandean Lamper dan Sambirejo; selatan : Kelurahan Peterongan; barat : Kelurahan Karangturi;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 0.74,
     "total_penduduk": 3564,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.03.1010.pdf"
@@ -786,6 +1122,9 @@
   {
     "kecamatan": "Semarang Timur",
     "kelurahan": "Karangturi",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Sarirejo; timur : Kelurahan Karangtempel; selatan : Kelurahan Peterongan; barat : Kelurahan Karang Kidul;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 0.28,
     "total_penduduk": 2817,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.03.1009.pdf"
@@ -793,6 +1132,9 @@
   {
     "kecamatan": "Semarang Barat",
     "kelurahan": "Kalibanteng Kidul",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Gisikdrono dan Kalibanteng Kulon; timur : Kelurahan Gisikdrono; selatan : Kelurahan Manyaran; barat : Kelurahan Kalibanteng Kulon dan Kembangarum;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 0.44,
     "total_penduduk": 4980,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.13.1006.pdf"
@@ -800,6 +1142,9 @@
   {
     "kecamatan": "Pedurungan",
     "kelurahan": "Kalicari",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Tlogosari Kulon; timur : Kelurahan Palebon; selatan : Kelurahan Gemah; barat : Kelurahan Gayamsari dan Siwalan;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 1.42,
     "total_penduduk": 9755,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.06.1012.pdf"
@@ -807,6 +1152,9 @@
   {
     "kecamatan": "Semarang Barat",
     "kelurahan": "Bojongsalaman",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Cabean; timur : Kelurahan Bulustalan dan Barusari; selatan : Kelurahan Ngemplak Simongan dan Bongsari; barat : Kelurahan Salamanmloyo;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 0.6,
     "total_penduduk": 8052,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.13.1009.pdf"
@@ -814,6 +1162,9 @@
   {
     "kecamatan": "Semarang Tengah",
     "kelurahan": "Pekunden",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Miroto dan Kelurahan Brumbungan; timur : Kelurahan Karang Kidul; selatan : Kelurahan Mugasari, Pleburan, dan Randusari; barat : Kelurahan Randusari dan Sekayu;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 0.52,
     "total_penduduk": 3206,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.01.1013.pdf"
@@ -821,6 +1172,9 @@
   {
     "kecamatan": "Semarang Selatan",
     "kelurahan": "Randusari",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Pekunden, Pindrikan Kidul, dan Sekayu; timur : Kelurahan Mugasari; selatan : Kelurahan Lempongsari, Bendungan, dan Kelurahan Petompon; barat : Kelurahan Barusari;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 0.86,
     "total_penduduk": 7243,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.07.1001.pdf"
@@ -828,6 +1182,9 @@
   {
     "kecamatan": "Semarang Selatan",
     "kelurahan": "Barusari",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Pindrikan Kidul dan Randusari; timur : Kelurahan Randusari; selatan : Kelurahan Petompon; barat : Kelurahan Bulustalan, Bojongsalaman, dan Ngemplak Simongan;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 0.53,
     "total_penduduk": 5860,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.07.1003.pdf"
@@ -835,6 +1192,9 @@
   {
     "kecamatan": "Pedurungan",
     "kelurahan": "Tlogomulyo",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Bangetayu Wetan dan Bangetayu Kulon; timur : Kelurahan Penggaron Kidul; selatan : Kelurahan Pedurungan Lor dan Pedurungan Tengah; barat : Kelurahan Tlogosari Wetan;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 2.09,
     "total_penduduk": 17611,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.06.1002.pdf"
@@ -842,6 +1202,9 @@
   {
     "kecamatan": "Ngaliyan",
     "kelurahan": "Gondoriyo",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Wonosari dan Tambakaji; timur : Kelurahan Bringin; selatan : Kelurahan Wates; barat : Kelurahan Podorejo;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 5.48,
     "total_penduduk": 8328,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.15.1001.pdf"
@@ -849,6 +1212,9 @@
   {
     "kecamatan": "Semarang Barat",
     "kelurahan": "Salamanmloyo",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Karangayu; timur : Kelurahan Cabean dan Bojongsalaman; selatan : Kelurahan Bongsari; barat : Kelurahan Gisikdrono;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 0.47,
     "total_penduduk": 3275,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.13.1010.pdf"
@@ -856,6 +1222,9 @@
   {
     "kecamatan": "Ngaliyan",
     "kelurahan": "Podorejo",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Wonosari dan Kabupaten Kendal; timur : Kelurahan Gondoriyo, Pesantren, dan Wates; selatan : Kelurahan Ngadirgo, Pesantren, dan Wonoplumbon; barat : Kabupaten Kendal dan Kelurahan Wonoplumbon;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 8.52,
     "total_penduduk": 10236,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.15.1002.pdf"
@@ -863,6 +1232,9 @@
   {
     "kecamatan": "Semarang Selatan",
     "kelurahan": "Bulustalan",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Pindrikan Kidul dan Pindrikan Lor; timur : Kelurahan Barusari; selatan : Kelurahan Barusari; barat : Kelurahan Bojongsalaman dan Cabean;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 0.31,
     "total_penduduk": 4253,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.07.1002.pdf"
@@ -870,6 +1242,9 @@
   {
     "kecamatan": "Semarang Barat",
     "kelurahan": "Cabean",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Krobokan; timur : Kelurahan Bulustalan; selatan : Kelurahan Bojongsalaman; barat : Kelurahan Salamanmloyo;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 0.22,
     "total_penduduk": 2643,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.13.1011.pdf"
@@ -877,6 +1252,9 @@
   {
     "kecamatan": "Semarang Tengah",
     "kelurahan": "Brumbungan",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Gabahan; timur : Kelurahan Jagalan; selatan : Kelurahan Pekunden; barat : Kelurahan Miroto;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 0.35,
     "total_penduduk": 3638,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.01.1002.pdf"
@@ -884,6 +1262,9 @@
   {
     "kecamatan": "Semarang Tengah",
     "kelurahan": "Miroto",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Sekayu dan Kembangsari; timur : Kelurahan Gabahan dan Brumbungan; selatan : Kelurahan Pekunden; barat : Kelurahan Pekunden;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 0.35,
     "total_penduduk": 4483,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.01.1001.pdf"
@@ -891,6 +1272,9 @@
   {
     "kecamatan": "Semarang Barat",
     "kelurahan": "Krapyak",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Tambakharjo; timur : Kelurahan Kalibanteng Kulon; selatan : Kelurahan Kembangarum dan Purwoyoso; barat : Kelurahan Jerakah;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 0.92,
     "total_penduduk": 6002,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.13.1003.pdf"
@@ -898,6 +1282,9 @@
   {
     "kecamatan": "Semarang Barat",
     "kelurahan": "Kalibanteng Kulon",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Tambakharjo; timur : Kelurahan Tawangsari, Kalibanteng Kidul, dan Gisikdrono; selatan : Kelurahan Kalibanteng Kidul dan Kembangarum; barat : Kelurahan Krapyak dan Kembangarum;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 0.98,
     "total_penduduk": 6620,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.13.1005.pdf"
@@ -905,6 +1292,9 @@
   {
     "kecamatan": "Pedurungan",
     "kelurahan": "Tlogosari Wetan",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Bangetayu Kulon; timur : Kelurahan Tlogomulyo; selatan : Kelurahan Pedurungan Tengah dan Muktiharjo Kidul; barat : Kelurahan Tlogosari Kulon;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 1.25,
     "total_penduduk": 9965,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.06.1003.pdf"
@@ -912,6 +1302,9 @@
   {
     "kecamatan": "Semarang Tengah",
     "kelurahan": "Pindrikan Kidul",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Pindrikan Lor; timur : Kelurahan Sekayu; selatan : Kelurahan Randusari, Barusari, dan Bulustalan; barat : Kelurahan Pindrikan Lor;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 0.38,
     "total_penduduk": 2557,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.01.1014.pdf"
@@ -919,6 +1312,9 @@
   {
     "kecamatan": "Semarang Tengah",
     "kelurahan": "Gabahan",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Banguharjo dan Kelurahan Kranggan; timur : Kelurahan Jagalan; selatan : Kelurahan Brumbungan; barat : Kelurahan Miroto;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 0.26,
     "total_penduduk": 7036,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.01.1005.pdf"
@@ -926,6 +1322,9 @@
   {
     "kecamatan": "Ngaliyan",
     "kelurahan": "Tambakaji",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Karanganyar, Jerakah, dan Tugurejo; timur : Kelurahan Purwoyoso dan Ngaliyan; selatan : Kelurahan Bringin, Ngaliyan, dan Gondoriyo; barat : Kelurahan Wonosari;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 4.37,
     "total_penduduk": 20905,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.15.1008.pdf"
@@ -933,6 +1332,9 @@
   {
     "kecamatan": "Genuk",
     "kelurahan": "Bangetayu Wetan",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Sembungharjo; timur : Kelurahan Penggaron Lor; selatan : Kelurahan Tlogomulyo; barat : Kelurahan Bangetayu Kulon;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 2.08,
     "total_penduduk": 16060,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.05.1011.pdf"
@@ -940,6 +1342,9 @@
   {
     "kecamatan": "Pedurungan",
     "kelurahan": "Tlogosari Kulon",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Muktiharjo Kidul; timur : Kelurahan Tlogosari Wetan dan Pedurungan Tengah; selatan : Kelurahan Palebon dan Kalicari; barat : Kelurahan Siwalan;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 2.43,
     "total_penduduk": 32305,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.06.1004.pdf"
@@ -947,6 +1352,9 @@
   {
     "kecamatan": "Semarang Timur",
     "kelurahan": "Sarirejo",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Kebonagung; timur : Kelurahan Rejosari; selatan : Kelurahan Karangturi; barat : Kelurahan Jagalan;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 0.41,
     "total_penduduk": 7519,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.03.1007.pdf"
@@ -954,6 +1362,9 @@
   {
     "kecamatan": "Semarang Barat",
     "kelurahan": "Gisikdrono",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Tawangmas dan Tawangsari; timur : Kelurahan Karangayu, Salamanmloyo, dan Bongsari; selatan : Kelurahan Manyaran dan Ngemplak Simongan; barat : Kelurahan Kalibanteng Kidul, Kalibanteng Kulon, dan Tawangsari;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 1.32,
     "total_penduduk": 18593,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.13.1007.pdf"
@@ -961,6 +1372,9 @@
   {
     "kecamatan": "Genuk",
     "kelurahan": "Penggaron Lor",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Kudu; timur : Kabupaten Demak; selatan : Kelurahan Penggaron Kidul; barat : Kelurahan Bangetayu Wetan dan Kelurahan Sembungharjo;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 1.43,
     "total_penduduk": 6803,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.05.1008.pdf"
@@ -968,6 +1382,9 @@
   {
     "kecamatan": "Semarang Barat",
     "kelurahan": "Karangayu",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Tawangmas; timur : Kelurahan Krobokan; selatan : Kelurahan Salamamloyo; barat : Kelurahan Gisikdrono;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 0.54,
     "total_penduduk": 7312,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.13.1012.pdf"
@@ -975,6 +1392,9 @@
   {
     "kecamatan": "Semarang Tengah",
     "kelurahan": "Kranggan",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Kauman; timur : Kelurahan Jagalan; selatan : Kelurahan Gabahan; barat : Kelurahan Bangunharjo;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 0.28,
     "total_penduduk": 3709,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.01.1004.pdf"
@@ -982,6 +1402,9 @@
   {
     "kecamatan": "Semarang Tengah",
     "kelurahan": "Jagalan",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Purwodinatan; timur : Kelurahan Sarirejo dan Kebonagung; selatan : Kelurahan Karang Kidul; barat : Kelurahan Kranggan, Gabahan, dan Brumbungan;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 0.33,
     "total_penduduk": 5219,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.01.1003.pdf"
@@ -989,6 +1412,9 @@
   {
     "kecamatan": "Semarang Timur",
     "kelurahan": "Rejosari",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Bugangan; timur : Kelurahan Sambirejo; selatan : Kelurahan Karangtempel; barat : Kelurahan Sarirejo;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 0.81,
     "total_penduduk": 14507,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.03.1008.pdf"
@@ -996,6 +1422,9 @@
   {
     "kecamatan": "Semarang Tengah",
     "kelurahan": "Pindrikan Lor",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Bulu Lor dan Kelurahan Plombokan; timur : Kelurahan Sekayu dan Purwosari; selatan : Kelurahan Pindrikan Kidul dan Bulustalan; barat : Kelurahan Krobokan;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 0.33,
     "total_penduduk": 5125,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.01.1015.pdf"
@@ -1003,6 +1432,9 @@
   {
     "kecamatan": "Semarang Tengah",
     "kelurahan": "Kembangsari",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Pandansari; timur : Kelurahan Bangunharjo; selatan : Kelurahan Miroto; barat : Kelurahan Sekayu;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 0.29,
     "total_penduduk": 3574,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.01.1006.pdf"
@@ -1010,6 +1442,9 @@
   {
     "kecamatan": "Semarang Tengah",
     "kelurahan": "Sekayu",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Purwosari; timur : Kelurahan Pandansari dan Kelurahan Kembangsari; selatan : Kelurahan Miroto, Pekunden, dan Randusari; barat : Kelurahan Pindrikan Kidul dan Pindrikan Lor;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 0.62,
     "total_penduduk": 3273,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.01.1007.pdf"
@@ -1017,6 +1452,9 @@
   {
     "kecamatan": "Gayamsari",
     "kelurahan": "Siwalan",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Sawah Besar; timur : Kelurahan Muktiharjo Kidul, Tlogosari Kulon, dan Kalicari; selatan : Kelurahan Gayamsari; barat : Kelurahan Sambirejo dan Sawah Besar;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 0.54,
     "total_penduduk": 8063,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.04.1005.pdf"
@@ -1024,6 +1462,9 @@
   {
     "kecamatan": "Gayamsari",
     "kelurahan": "Sambirejo",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Sawah Besar; timur : Kelurahan Siwalan; selatan : Kelurahan Pandean Lamper; barat : Kelurahan Rejosari, Karangtempel, dan Bugangan;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 1.15,
     "total_penduduk": 8328,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.04.1004.pdf"
@@ -1031,6 +1472,9 @@
   {
     "kecamatan": "Semarang Tengah",
     "kelurahan": "Bangunharjo",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Pandansari; timur : Kelurahan Kauman dan Kranggan; selatan : Kelurahan Gabahan; barat : Kelurahan Kembangsari;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 0.22,
     "total_penduduk": 2183,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.01.1009.pdf"
@@ -1038,6 +1482,9 @@
   {
     "kecamatan": "Semarang Barat",
     "kelurahan": "Krobokan",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Tawangmas; timur : Kelurahan Bulu Lor dan Pindrikan Lor; selatan : Kelurahan Cabean; barat : Kelurahan Karangayu dan Tawangmas;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 0.87,
     "total_penduduk": 14042,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.13.1013.pdf"
@@ -1045,6 +1492,9 @@
   {
     "kecamatan": "Semarang Timur",
     "kelurahan": "Kebonagung",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Rejomulyo; timur : Kelurahan Bugangan; selatan : Kelurahan Sarirejo; barat : Kelurahan Purwodinatan dan Jagalan;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 0.24,
     "total_penduduk": 4173,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.03.1004.pdf"
@@ -1052,6 +1502,9 @@
   {
     "kecamatan": "Semarang Timur",
     "kelurahan": "Bugangan",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Mlatibaru dan Mlatiharjo; timur : Kelurahan Sambirejo; selatan : Kelurahan Rejosari; barat : Kelurahan Kebonagung dan Sarirejo;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 0.51,
     "total_penduduk": 7394,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.03.1006.pdf"
@@ -1059,6 +1512,9 @@
   {
     "kecamatan": "Genuk",
     "kelurahan": "Bangetayu Kulon",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Gebangsari dan Genuksari; timur : Kelurahan Sembungharjo dan Bangetayu Wetan; selatan : Kelurahan Tlogosari Wetan, Tlogomulyo, dan Muktiharjo Kidul; barat : Kelurahan Muktiharjo Kidul dan Muktiharjo Lor;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 1.99,
     "total_penduduk": 19899,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.05.1010.pdf"
@@ -1066,6 +1522,9 @@
   {
     "kecamatan": "Genuk",
     "kelurahan": "Sembungharjo",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Banjardowo dan Kelurahan Karangroto; timur : Kelurahan Penggaron Lor; selatan : Kelurahan Bangetayu Wetan; barat : Kelurahan Bangetayu Kulon dan Kelurahan Genuksari;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 2.15,
     "total_penduduk": 15625,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.05.1001.pdf"
@@ -1073,6 +1532,9 @@
   {
     "kecamatan": "Semarang Tengah",
     "kelurahan": "Pandansari",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Purwosari dan Kelurahan Dadapsari; timur : Kelurahan Dadapsari; selatan : Kelurahan Kembangsari, Bangunharjo, dan Kauman; barat : Kelurahan Sekayu;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 0.29,
     "total_penduduk": 2265,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.01.1008.pdf"
@@ -1080,6 +1542,9 @@
   {
     "kecamatan": "Semarang Tengah",
     "kelurahan": "Kauman",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Pandansari dan Dadapsari; timur : Kelurahan Purwodinatan; selatan : Kelurahan Kranggan; barat : Kelurahan Bangunharjo;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 0.23,
     "total_penduduk": 2225,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.01.1010.pdf"
@@ -1087,6 +1552,9 @@
   {
     "kecamatan": "Ngaliyan",
     "kelurahan": "Wonosari",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Mangkang Kulon, Mangunharjo, Mangkang Wetan, Randugarut, dan Karanganyar; timur : Kelurahan Tambakaji; selatan : Kelurahan Gondoriyo dan Podorejo; barat : Kabupaten Kendal;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 5.49,
     "total_penduduk": 24331,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.15.1009.pdf"
@@ -1094,6 +1562,9 @@
   {
     "kecamatan": "Semarang Utara",
     "kelurahan": "Bulu Lor",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Panggung Kidul; timur : Kelurahan Plombokan; selatan : Kelurahan Pindrikan Lor; barat : Kelurahan Krobokan;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 0.68,
     "total_penduduk": 13839,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.02.1002.pdf"
@@ -1101,6 +1572,9 @@
   {
     "kecamatan": "Semarang Tengah",
     "kelurahan": "Purwodinatan",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Tanjung Mas; timur : Kelurahan Rejomulyo dan Kebonagung; selatan : Kelurahan Jagalan; barat : Kelurahan Kauman;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 0.39,
     "total_penduduk": 4085,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.01.1011.pdf"
@@ -1108,6 +1582,9 @@
   {
     "kecamatan": "Semarang Utara",
     "kelurahan": "Purwosari",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Kuningan; timur : Kelurahan Dadapsari; selatan : Kelurahan Pandansari, Pindrikan Lor, dan Sekayu; barat : Kelurahan Plombokan;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 0.48,
     "total_penduduk": 8082,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.02.1004.pdf"
@@ -1115,6 +1592,9 @@
   {
     "kecamatan": "Gayamsari",
     "kelurahan": "Sawah Besar",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Kaligawe; timur : Kelurahan Muktiharjo Kidul; selatan : Kelurahan Sambirejo dan Kelurahan Siwalan; barat : Kelurahan Mlatiharjo;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 0.62,
     "total_penduduk": 9139,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.04.1003.pdf"
@@ -1122,6 +1602,9 @@
   {
     "kecamatan": "Semarang Utara",
     "kelurahan": "Plombokan",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Panggung Kidul; timur : Kelurahan Purwosari; selatan : Kelurahan Pindrikan Lor; barat : Kelurahan Bulu Lor;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 0.57,
     "total_penduduk": 7921,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.02.1003.pdf"
@@ -1129,6 +1612,9 @@
   {
     "kecamatan": "Tugu",
     "kelurahan": "Jerakah",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Tambakharjo; timur : Kelurahan Tambakharjo dan Krapyak; selatan : Kelurahan Purwoyoso dan Tambakaji; barat : Kelurahan Tugurejo;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 1.19,
     "total_penduduk": 3189,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.16.1001.pdf"
@@ -1136,6 +1622,9 @@
   {
     "kecamatan": "Semarang Utara",
     "kelurahan": "Dadapsari",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Kuningan; timur : Kelurahan Bandarharjo dan Tanjung Mas; selatan : Kelurahan Pandansari dan Kauman; barat : Kelurahan Purwosari;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 0.4,
     "total_penduduk": 8271,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.02.1009.pdf"
@@ -1143,6 +1632,9 @@
   {
     "kecamatan": "Semarang Utara",
     "kelurahan": "Panggung Kidul",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Panggung Lor; timur : Kelurahan Kuningan; selatan : Kelurahan Plombokan dan Bulu Lor; barat : Kelurahan Tawangmas;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 0.45,
     "total_penduduk": 6073,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.02.1007.pdf"
@@ -1150,6 +1642,9 @@
   {
     "kecamatan": "Pedurungan",
     "kelurahan": "Muktiharjo Kidul",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Muktiharjo Lor dan Bangetayu Kulon; timur : Kelurahan Bangetayu Kulon dan Tlogosari Wetan; selatan : Kelurahan Tlogosari Kulon; barat : Kelurahan Sawah Besar, Siwalan, dan Kaligawe;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 2.14,
     "total_penduduk": 33847,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.06.1005.pdf"
@@ -1157,6 +1652,9 @@
   {
     "kecamatan": "Tugu",
     "kelurahan": "Karanganyar",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Laut Jawa; timur : Kelurahan Tugurejo; selatan : Kelurahan Wonosari dan Tambakaji; barat : Kelurahan Randugarut;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 4.46,
     "total_penduduk": 4088,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.16.1003.pdf"
@@ -1164,13 +1662,19 @@
   {
     "kecamatan": "Tugu",
     "kelurahan": "Randugarut",
-    "luas_wilayah": 5.0,
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Laut Jawa; timur : Kelurahan Karanganyar; selatan : Kelurahan Wonosari; barat : Kelurahan Mangkang Wetan;",
+    "karakteristik_topografi": "-",
+    "luas_wilayah": 5,
     "total_penduduk": 2305,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.16.1004.pdf"
   },
   {
     "kecamatan": "Semarang Timur",
     "kelurahan": "Mlatibaru",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Rejomulyo dan Kemijen; timur : Kelurahan Mlatiharjo; selatan : Kelurahan Bugangan; barat : Kelurahan Rejomulyo;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 0.52,
     "total_penduduk": 6232,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.03.1003.pdf"
@@ -1178,6 +1682,9 @@
   {
     "kecamatan": "Semarang Timur",
     "kelurahan": "Rejomulyo",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Kemijen; timur : Kelurahan Mlatibaru; selatan : Kelurahan Kebonagung; barat : Kelurahan Purwodinatan dan Tanjung Mas;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 0.38,
     "total_penduduk": 3633,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.03.1002.pdf"
@@ -1185,6 +1692,9 @@
   {
     "kecamatan": "Semarang Timur",
     "kelurahan": "Mlatiharjo",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Kemijen; timur : Kelurahan Sawah Besar dan Kaligawe; selatan : Kelurahan Bugangan; barat : Kelurahan Mlatibaru;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 0.47,
     "total_penduduk": 4785,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.03.1005.pdf"
@@ -1192,6 +1702,9 @@
   {
     "kecamatan": "Tugu",
     "kelurahan": "Tugurejo",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Laut Jawa; timur : Kelurahan Jekarah dan Tambakharjo; selatan : Kelurahan Tambakaji; barat : Kelurahan Karanganyar;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 5.43,
     "total_penduduk": 7498,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.16.1002.pdf"
@@ -1199,6 +1712,9 @@
   {
     "kecamatan": "Gayamsari",
     "kelurahan": "Kaligawe",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Tambakrejo; timur : Kelurahan Muktiharjo Lor dan Muktiharjo Kidul; selatan : Kelurahan Sawah Besar; barat : Kelurahan Mlatiharjo;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 0.84,
     "total_penduduk": 10237,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.04.1002.pdf"
@@ -1206,6 +1722,9 @@
   {
     "kecamatan": "Genuk",
     "kelurahan": "Muktiharjo Lor",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Terboyo Kulon; timur : Kelurahan Gebangsari; selatan : Kelurahan Bangetayu Kulon dan Muktiharjo Kidul; barat : Kelurahan Kaligawe;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 1.39,
     "total_penduduk": 3873,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.05.1009.pdf"
@@ -1213,6 +1732,9 @@
   {
     "kecamatan": "Genuk",
     "kelurahan": "Gebangsari",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Terboyo Wetan dan Terboyo kulon; timur : Kelurahan Genuksari; selatan : Kelurahan Bangetayu Kulon; barat : Kelurahan Muktiharjo Lor;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 1.26,
     "total_penduduk": 5046,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.05.1006.pdf"
@@ -1220,6 +1742,9 @@
   {
     "kecamatan": "Genuk",
     "kelurahan": "Kudu",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kabupaten Demak; timur : Kabupaten Demak; selatan : Kelurahan Penggaron Lor; barat : Kelurahan Karangroto;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 2.02,
     "total_penduduk": 11584,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.05.1002.pdf"
@@ -1227,6 +1752,9 @@
   {
     "kecamatan": "Semarang Utara",
     "kelurahan": "Kuningan",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Bandarharjo; timur : Kelurahan Bandarharjo; selatan : Kelurahan Dadapsari dan Purwosari; barat : Kelurahan Panggung Kidul dan Panggung Lor;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 0.85,
     "total_penduduk": 14128,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.02.1005.pdf"
@@ -1234,6 +1762,9 @@
   {
     "kecamatan": "Semarang Barat",
     "kelurahan": "Tawangmas",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Tawangsari; timur : Kelurahan Panggung Lor, Bulu Lor, dan Panggung Kidul; selatan : Kelurahan Krobokan, Gisikdrono, dan Karangayu; barat : Kelurahan Tawangsari;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 1.38,
     "total_penduduk": 7287,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.13.1015.pdf"
@@ -1241,6 +1772,9 @@
   {
     "kecamatan": "Tugu",
     "kelurahan": "Mangunharjo",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Laut Jawa; timur : Kelurahan Mangkang Wetan; selatan : Kelurahan Wonosari; barat : Kelurahan Mangkang Kulon;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 4.66,
     "total_penduduk": 6614,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.16.1007.pdf"
@@ -1248,6 +1782,9 @@
   {
     "kecamatan": "Genuk",
     "kelurahan": "Karangroto",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kabupaten Demak; timur : Kelurahan Kudu; selatan : Kelurahan Sembungharjo; barat : Kelurahan Banjardowo;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 2.17,
     "total_penduduk": 16184,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.05.1003.pdf"
@@ -1255,6 +1792,9 @@
   {
     "kecamatan": "Tugu",
     "kelurahan": "Mangkang Wetan",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Laut Jawa; timur : Kelurahan Randugarut; selatan : Kelurahan Wonosari; barat : Kelurahan Mangunharjo;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 3.96,
     "total_penduduk": 6301,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.16.1005.pdf"
@@ -1262,6 +1802,9 @@
   {
     "kecamatan": "Genuk",
     "kelurahan": "Genuksari",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Trimulyo dan Terboyo Wetan; timur : Kelurahan Banjardowo dan Sembungharjo; selatan : Kelurahan Bangetayu Kulon; barat : Kelurahan Gebangsari;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 2.26,
     "total_penduduk": 17886,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.05.1004.pdf"
@@ -1269,6 +1812,9 @@
   {
     "kecamatan": "Semarang Timur",
     "kelurahan": "Kemijen",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Tanjung Mas; timur : Kelurahan Tambakrejo; selatan : Kelurahan Rejomulyo, Mlatibaru, dan Mlatiharjo; barat : Kelurahan Tanjung Mas;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 1.21,
     "total_penduduk": 31413,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.03.1001.pdf"
@@ -1276,6 +1822,9 @@
   {
     "kecamatan": "Genuk",
     "kelurahan": "Banjardowo",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Trimulyo; timur : Kelurahan Karangroto dan Kabupaten Demak; selatan : Kelurahan Sembungharjo; barat : Kelurahan Genuksari;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 2.55,
     "total_penduduk": 11567,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.05.1005.pdf"
@@ -1283,6 +1832,9 @@
   {
     "kecamatan": "Genuk",
     "kelurahan": "Terboyo Kulon",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Laut Jawa; timur : Kelurahan Terboyo Wetan; selatan : Kelurahan Muktiharjo Lor dan Gebangsari; barat : Kelurahan Tanjung Mas dan Tambakrejo;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 2.75,
     "total_penduduk": 566,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.05.1012.pdf"
@@ -1290,6 +1842,9 @@
   {
     "kecamatan": "Semarang Barat",
     "kelurahan": "Tambakharjo",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Laut Jawa; timur : Kelurahan Tawangsari; selatan : Kelurahan Kalibanteng Kulon, Tawangsari, dan Krapyak; barat : Kelurahan Jerakah dan Tugurejo;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 8.07,
     "total_penduduk": 3423,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.13.1004.pdf"
@@ -1297,6 +1852,9 @@
   {
     "kecamatan": "Semarang Barat",
     "kelurahan": "Tawangsari",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Laut Jawa; timur : Kelurahan Panggung Lor dan Tawangmas; selatan : Kelurahan Gisikdrono dan Kalibanteng Kulon; barat : Kelurahan Tambakharjo;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 3.83,
     "total_penduduk": 6512,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.13.1014.pdf"
@@ -1304,6 +1862,9 @@
   {
     "kecamatan": "Genuk",
     "kelurahan": "Terboyo Wetan",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Laut Jawa; timur : Kelurahan Trimulyo; selatan : Kelurahan Gebangsari dan Genuksari; barat : Kelurahan Terboyo kulon;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 1.95,
     "total_penduduk": 1416,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.05.1013.pdf"
@@ -1311,6 +1872,9 @@
   {
     "kecamatan": "Semarang Utara",
     "kelurahan": "Panggung Lor",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Laut Jawa; timur : Kelurahan Bandarharjo dan Kuningan; selatan : Kelurahan Panggung Kidul; barat : Kelurahan Tawangmas dan Tawangsari;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 2.41,
     "total_penduduk": 12461,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.02.1006.pdf"
@@ -1318,6 +1882,9 @@
   {
     "kecamatan": "Gayamsari",
     "kelurahan": "Tambakrejo",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Kelurahan Terboyo Kulon; timur : Kelurahan Terboyo Kulon; selatan : Kelurahan Kaligawe; barat : Kelurahan Kemijen;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 1.02,
     "total_penduduk": 9498,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.04.1001.pdf"
@@ -1325,6 +1892,9 @@
   {
     "kecamatan": "Semarang Utara",
     "kelurahan": "Bandarharjo",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Laut Jawa; timur : Kelurahan Tanjung Mas; selatan : Kelurahan Dadapsari; barat : Kelurahan Panggung Lor dan Kuningan;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 2.24,
     "total_penduduk": 19757,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.02.1001.pdf"
@@ -1332,6 +1902,9 @@
   {
     "kecamatan": "Tugu",
     "kelurahan": "Mangkang Kulon",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Laut Jawa; timur : Kelurahan Mangunharjo; selatan : Kelurahan Wonosari; barat : Kabupaten Kendal;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 4.51,
     "total_penduduk": 3853,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.16.1006.pdf"
@@ -1339,6 +1912,9 @@
   {
     "kecamatan": "Semarang Utara",
     "kelurahan": "Tanjung Mas",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Laut Jawa; timur : Kelurahan Terboyo Kulon, Rejomulyo, dan Kemijen; selatan : Kelurahan Purwodinatan; barat : Kelurahan Bandarharjo;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 3.95,
     "total_penduduk": 27108,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.02.1008.pdf"
@@ -1346,6 +1922,9 @@
   {
     "kecamatan": "Genuk",
     "kelurahan": "Trimulyo",
+    "jumlah_kelurahan": "-",
+    "batas_wilayah": "utara : Laut Jawa; timur : Kabupaten Demak; selatan : Kelurahan Genuksari dan Banjardowo; barat : Kelurahan Terboyo Wetan;",
+    "karakteristik_topografi": "-",
     "luas_wilayah": 3.34,
     "total_penduduk": 3640,
     "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.05.1007.pdf"
