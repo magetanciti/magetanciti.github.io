@@ -1,0 +1,98 @@
+[
+  {
+    "nama_kecamatan": "Banyumanik",
+    "nilai_ikm": 95.67,
+    "mutu_pelayanan": "A",
+    "kinerja_unit": "Sangat Baik"
+  },
+  {
+    "nama_kecamatan": "Candisari",
+    "nilai_ikm": 88.3,
+    "mutu_pelayanan": "B",
+    "kinerja_unit": "Baik"
+  },
+  {
+    "nama_kecamatan": "Gajahmungkur",
+    "nilai_ikm": 91.3,
+    "mutu_pelayanan": "A",
+    "kinerja_unit": "Sangat Baik"
+  },
+  {
+    "nama_kecamatan": "Gayamsari",
+    "nilai_ikm": 90.68,
+    "mutu_pelayanan": "A",
+    "kinerja_unit": "Sangat Baik"
+  },
+  {
+    "nama_kecamatan": "Genuk",
+    "nilai_ikm": 96.83,
+    "mutu_pelayanan": "A",
+    "kinerja_unit": "Sangat Baik"
+  },
+  {
+    "nama_kecamatan": "Gunungpati",
+    "nilai_ikm": 96.11,
+    "mutu_pelayanan": "A",
+    "kinerja_unit": "Sangat Baik"
+  },
+  {
+    "nama_kecamatan": "Mijen",
+    "nilai_ikm": 98.7,
+    "mutu_pelayanan": "A",
+    "kinerja_unit": "Sangat Baik"
+  },
+  {
+    "nama_kecamatan": "Ngaliyan",
+    "nilai_ikm": 89.04,
+    "mutu_pelayanan": "B",
+    "kinerja_unit": "Baik"
+  },
+  {
+    "nama_kecamatan": "Pedurungan",
+    "nilai_ikm": 93.06,
+    "mutu_pelayanan": "A",
+    "kinerja_unit": "Sangat Baik"
+  },
+  {
+    "nama_kecamatan": "Semarang Barat",
+    "nilai_ikm": 88.36,
+    "mutu_pelayanan": "B",
+    "kinerja_unit": "Baik"
+  },
+  {
+    "nama_kecamatan": "Semarang Selatan",
+    "nilai_ikm": 90.62,
+    "mutu_pelayanan": "A",
+    "kinerja_unit": "Sangat Baik"
+  },
+  {
+    "nama_kecamatan": "Semarang Tengah",
+    "nilai_ikm": 94.06,
+    "mutu_pelayanan": "A",
+    "kinerja_unit": "Sangat Baik"
+  },
+  {
+    "nama_kecamatan": "Semarang Timur",
+    "nilai_ikm": 88.32,
+    "mutu_pelayanan": "B",
+    "kinerja_unit": "Baik"
+  },
+  {
+    "nama_kecamatan": "Semarang Utara",
+    "nilai_ikm": 90.38,
+    "mutu_pelayanan": "A",
+    "kinerja_unit": "Sangat Baik"
+  },
+  {
+    "nama_kecamatan": "Tembalang",
+    "nilai_ikm": 95.79,
+    "mutu_pelayanan": "A",
+    "kinerja_unit": "Sangat Baik"
+  },
+  {
+    "nama_kecamatan": "Tugu",
+    "nilai_ikm": 94.53,
+    "mutu_pelayanan": "A",
+    "kinerja_unit": "Sangat Baik"
+  }
+]
