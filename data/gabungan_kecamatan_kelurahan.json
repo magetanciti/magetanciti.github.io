@@ -1,0 +1,1353 @@
+[
+  {
+    "kecamatan": "Banyumanik",
+    "kelurahan": "-",
+    "luas_wilayah": 31.82,
+    "total_penduduk": 145708,
+    "link_peta": "https://drive.google.com/uc?export=download&id=1uNRjZh8EnrnR3czDbDnrN6K6IBeoW7fM"
+  },
+  {
+    "kecamatan": "Candisari",
+    "kelurahan": "-",
+    "luas_wilayah": 6.625,
+    "total_penduduk": 76310,
+    "link_peta": "https://drive.google.com/uc?export=download&id=1k11_qB799xTaDArTj-F-lXSkI5idm03k"
+  },
+  {
+    "kecamatan": "Gajahmungkur",
+    "kelurahan": "-",
+    "luas_wilayah": 9.635,
+    "total_penduduk": 57741,
+    "link_peta": "https://drive.google.com/uc?export=download&id=1W3PMADZpHcAGn0GsSgDWhr6Xwo86BnUE"
+  },
+  {
+    "kecamatan": "Gayamsari",
+    "kelurahan": "-",
+    "luas_wilayah": 6.445,
+    "total_penduduk": 71402,
+    "link_peta": "https://drive.google.com/uc?export=download&id=1tonjmgTMSAHsCEcphbWl6oYGvdzGMORw"
+  },
+  {
+    "kecamatan": "Genuk",
+    "kelurahan": "-",
+    "luas_wilayah": 27.317,
+    "total_penduduk": 130149,
+    "link_peta": "https://drive.google.com/uc?export=download&id=13uacI9iGmdncnaXtIh77AMuX8QU30nq5"
+  },
+  {
+    "kecamatan": "Gunungpati",
+    "kelurahan": "-",
+    "luas_wilayah": 59.767,
+    "total_penduduk": 104174,
+    "link_peta": "https://drive.google.com/uc?export=download&id=1_tHJDgsM3tfBOF7KZ71wUFpWI6s570N-"
+  },
+  {
+    "kecamatan": "Mijen",
+    "kelurahan": "-",
+    "luas_wilayah": 56.772,
+    "total_penduduk": 84486,
+    "link_peta": "https://drive.google.com/uc?export=download&id=1wUVrQAZVFMWCXYT-kocLYQ4fnRdhmqJ4"
+  },
+  {
+    "kecamatan": "Ngaliyan",
+    "kelurahan": "-",
+    "luas_wilayah": 44.8415,
+    "total_penduduk": 144455,
+    "link_peta": "https://drive.google.com/uc?export=download&id=16xjZDMVZz1YHYTzpWMNkHzBjZG_ziXt5"
+  },
+  {
+    "kecamatan": "Pedurungan",
+    "kelurahan": "-",
+    "luas_wilayah": 21.722,
+    "total_penduduk": 199876,
+    "link_peta": "https://drive.google.com/uc?export=download&id=11eANL64ZITJKI59CSgaE-SUqV2C8xO0r"
+  },
+  {
+    "kecamatan": "Semarang Barat",
+    "kelurahan": "-",
+    "luas_wilayah": 24.999,
+    "total_penduduk": 151599,
+    "link_peta": "https://drive.google.com/uc?export=download&id=15N1J1XMYSqs6s6l1bkAAJxjmBezkkI1l"
+  },
+  {
+    "kecamatan": "Semarang Selatan",
+    "kelurahan": "-",
+    "luas_wilayah": 6.161,
+    "total_penduduk": 65344,
+    "link_peta": "https://drive.google.com/uc?export=download&id=1rMdPQEoogt0ww0IGzPVTvCGupyX0xiza"
+  },
+  {
+    "kecamatan": "Semarang Tengah",
+    "kelurahan": "-",
+    "luas_wilayah": 5.336,
+    "total_penduduk": 56346,
+    "link_peta": "https://drive.google.com/uc?export=download&id=1QAR0GixkraA0YpMAXGPw8fLx8yfJ1xjr"
+  },
+  {
+    "kecamatan": "Semarang Timur",
+    "kelurahan": "-",
+    "luas_wilayah": 5.576,
+    "total_penduduk": 68038,
+    "link_peta": "https://drive.google.com/uc?export=download&id=1qwZR-6kKttL366dsXYywQI7bWovWGRuu"
+  },
+  {
+    "kecamatan": "Semarang Utara",
+    "kelurahan": "-",
+    "luas_wilayah": 12.017,
+    "total_penduduk": 117639,
+    "link_peta": "https://drive.google.com/uc?export=download&id=1869hVQhIV5KUU-ofagvYGwQJRcL3ie6m"
+  },
+  {
+    "kecamatan": "Tembalang",
+    "kelurahan": "-",
+    "luas_wilayah": 40.728,
+    "total_penduduk": 195653,
+    "link_peta": "https://drive.google.com/uc?export=download&id=1wUVrQAZVFMWCXYT-kocLYQ4fnRdhmqJ4"
+  },
+  {
+    "kecamatan": "Tugu",
+    "kelurahan": "-",
+    "luas_wilayah": 29.196,
+    "total_penduduk": 33848,
+    "link_peta": "https://drive.google.com/uc?export=download&id=11Pa5bOs0Ppl8t4JzQ5wjYFvQ7tRDlGux"
+  },
+  {
+    "kecamatan": "Gunungpati",
+    "kelurahan": "Sumurrejo",
+    "luas_wilayah": 3.68,
+    "total_penduduk": 3556,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.12.1014.pdf"
+  },
+  {
+    "kecamatan": "Mijen",
+    "kelurahan": "Karangmalang",
+    "luas_wilayah": 1.97,
+    "total_penduduk": 2819,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.14.1003.pdf"
+  },
+  {
+    "kecamatan": "Mijen",
+    "kelurahan": "Bubakan",
+    "luas_wilayah": 2.51,
+    "total_penduduk": 4073,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.14.1002.pdf"
+  },
+  {
+    "kecamatan": "Mijen",
+    "kelurahan": "Polaman",
+    "luas_wilayah": 1.78,
+    "total_penduduk": 1972,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.14.1004.pdf"
+  },
+  {
+    "kecamatan": "Gunungpati",
+    "kelurahan": "Plalangan",
+    "luas_wilayah": 3.54,
+    "total_penduduk": 7050,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.12.1003.pdf"
+  },
+  {
+    "kecamatan": "Mijen",
+    "kelurahan": "Cangkiran",
+    "luas_wilayah": 2.4,
+    "total_penduduk": 5144,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.14.1001.pdf"
+  },
+  {
+    "kecamatan": "Banyumanik",
+    "kelurahan": "Pudakpayung",
+    "luas_wilayah": 6.18,
+    "total_penduduk": 24907,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.11.1001.pdf"
+  },
+  {
+    "kecamatan": "Gunungpati",
+    "kelurahan": "Pakintelan",
+    "luas_wilayah": 3.76,
+    "total_penduduk": 6615,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.12.1001.pdf"
+  },
+  {
+    "kecamatan": "Banyumanik",
+    "kelurahan": "Gedawang",
+    "luas_wilayah": 3.82,
+    "total_penduduk": 11443,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.11.1002.pdf"
+  },
+  {
+    "kecamatan": "Gunungpati",
+    "kelurahan": "Mangunsari",
+    "luas_wilayah": 3.39,
+    "total_penduduk": 4293,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.12.1002.pdf"
+  },
+  {
+    "kecamatan": "Gunungpati",
+    "kelurahan": "Gunungpati",
+    "luas_wilayah": 4.86,
+    "total_penduduk": 4320,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.12.1004.pdf"
+  },
+  {
+    "kecamatan": "Banyumanik",
+    "kelurahan": "Banyumanik",
+    "luas_wilayah": 1.82,
+    "total_penduduk": 12702,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.11.1005.pdf"
+  },
+  {
+    "kecamatan": "Banyumanik",
+    "kelurahan": "Jabungan",
+    "luas_wilayah": 3.88,
+    "total_penduduk": 4819,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.11.1003.pdf"
+  },
+  {
+    "kecamatan": "Banyumanik",
+    "kelurahan": "Padangsari",
+    "luas_wilayah": 1.29,
+    "total_penduduk": 12262,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.11.1010.pdf"
+  },
+  {
+    "kecamatan": "Mijen",
+    "kelurahan": "Purwosari",
+    "luas_wilayah": 4.38,
+    "total_penduduk": 5190,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.14.1005.pdf"
+  },
+  {
+    "kecamatan": "Mijen",
+    "kelurahan": "Tambangan",
+    "luas_wilayah": 2.84,
+    "total_penduduk": 5464,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.14.1006.pdf"
+  },
+  {
+    "kecamatan": "Tembalang",
+    "kelurahan": "Kramas",
+    "luas_wilayah": 1.15,
+    "total_penduduk": 4631,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.10.1005.pdf"
+  },
+  {
+    "kecamatan": "Gunungpati",
+    "kelurahan": "Cepoko",
+    "luas_wilayah": 2.83,
+    "total_penduduk": 6414,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.12.1012.pdf"
+  },
+  {
+    "kecamatan": "Gunungpati",
+    "kelurahan": "Nongkosawit",
+    "luas_wilayah": 2.38,
+    "total_penduduk": 5832,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.12.1005.pdf"
+  },
+  {
+    "kecamatan": "Banyumanik",
+    "kelurahan": "Srondol Wetan",
+    "luas_wilayah": 1.94,
+    "total_penduduk": 21125,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.11.1007.pdf"
+  },
+  {
+    "kecamatan": "Mijen",
+    "kelurahan": "Jatisari",
+    "luas_wilayah": 2.48,
+    "total_penduduk": 12834,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.14.1013.pdf"
+  },
+  {
+    "kecamatan": "Gunungpati",
+    "kelurahan": "Patemon",
+    "luas_wilayah": 3.6,
+    "total_penduduk": 6416,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.12.1008.pdf"
+  },
+  {
+    "kecamatan": "Gunungpati",
+    "kelurahan": "Ngijo",
+    "luas_wilayah": 3.01,
+    "total_penduduk": 6224,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.12.1007.pdf"
+  },
+  {
+    "kecamatan": "Banyumanik",
+    "kelurahan": "Pedalangan",
+    "luas_wilayah": 2.44,
+    "total_penduduk": 12032,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.11.1004.pdf"
+  },
+  {
+    "kecamatan": "Tembalang",
+    "kelurahan": "Rowosari",
+    "luas_wilayah": 7.83,
+    "total_penduduk": 14302,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.10.1002.pdf"
+  },
+  {
+    "kecamatan": "Mijen",
+    "kelurahan": "Mijen",
+    "luas_wilayah": 4.25,
+    "total_penduduk": 8036,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.14.1008.pdf"
+  },
+  {
+    "kecamatan": "Tembalang",
+    "kelurahan": "Meteseh",
+    "luas_wilayah": 5.63,
+    "total_penduduk": 24948,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.10.1001.pdf"
+  },
+  {
+    "kecamatan": "Banyumanik",
+    "kelurahan": "Sumurboto",
+    "luas_wilayah": 1.72,
+    "total_penduduk": 9482,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.11.1011.pdf"
+  },
+  {
+    "kecamatan": "Tembalang",
+    "kelurahan": "Bulusan",
+    "luas_wilayah": 4.43,
+    "total_penduduk": 6564,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.10.1004.pdf"
+  },
+  {
+    "kecamatan": "Gunungpati",
+    "kelurahan": "Jatirejo",
+    "luas_wilayah": 2.27,
+    "total_penduduk": 2408,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.12.1013.pdf"
+  },
+  {
+    "kecamatan": "Mijen",
+    "kelurahan": "Jatibarang",
+    "luas_wilayah": 2.99,
+    "total_penduduk": 3684,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.14.1009.pdf"
+  },
+  {
+    "kecamatan": "Mijen",
+    "kelurahan": "Wonolopo",
+    "luas_wilayah": 3.55,
+    "total_penduduk": 11428,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.14.1007.pdf"
+  },
+  {
+    "kecamatan": "Banyumanik",
+    "kelurahan": "Srondol Kulon",
+    "luas_wilayah": 3.43,
+    "total_penduduk": 13108,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.11.1006.pdf"
+  },
+  {
+    "kecamatan": "Gunungpati",
+    "kelurahan": "Kalisegoro",
+    "luas_wilayah": 3.42,
+    "total_penduduk": 8088,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.12.1015.pdf"
+  },
+  {
+    "kecamatan": "Gunungpati",
+    "kelurahan": "Pongangan",
+    "luas_wilayah": 3.67,
+    "total_penduduk": 9354,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.12.1006.pdf"
+  },
+  {
+    "kecamatan": "Tembalang",
+    "kelurahan": "Tembalang",
+    "luas_wilayah": 3.54,
+    "total_penduduk": 5833,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.10.1006.pdf"
+  },
+  {
+    "kecamatan": "Gunungpati",
+    "kelurahan": "Sekaran",
+    "luas_wilayah": 5.98,
+    "total_penduduk": 5131,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.12.1009.pdf"
+  },
+  {
+    "kecamatan": "Tembalang",
+    "kelurahan": "Mangunharjo",
+    "luas_wilayah": 2.57,
+    "total_penduduk": 13060,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.10.1003.pdf"
+  },
+  {
+    "kecamatan": "Banyumanik",
+    "kelurahan": "Ngesrep",
+    "luas_wilayah": 2.63,
+    "total_penduduk": 14163,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.11.1008.pdf"
+  },
+  {
+    "kecamatan": "Gunungpati",
+    "kelurahan": "Kandri",
+    "luas_wilayah": 4.19,
+    "total_penduduk": 7931,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.12.1016.pdf"
+  },
+  {
+    "kecamatan": "Tembalang",
+    "kelurahan": "Sendangmulyo",
+    "luas_wilayah": 4.45,
+    "total_penduduk": 40373,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.10.1011.pdf"
+  },
+  {
+    "kecamatan": "Banyumanik",
+    "kelurahan": "Tinjomoyo",
+    "luas_wilayah": 2.69,
+    "total_penduduk": 9665,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.11.1009.pdf"
+  },
+  {
+    "kecamatan": "Mijen",
+    "kelurahan": "Ngadirgo",
+    "luas_wilayah": 4.16,
+    "total_penduduk": 7457,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.14.1011.pdf"
+  },
+  {
+    "kecamatan": "Tembalang",
+    "kelurahan": "Sambiroto",
+    "luas_wilayah": 2.51,
+    "total_penduduk": 16306,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.10.1012.pdf"
+  },
+  {
+    "kecamatan": "Gajahmungkur",
+    "kelurahan": "Karangrejo",
+    "luas_wilayah": 1.29,
+    "total_penduduk": 6786,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.09.1001.pdf"
+  },
+  {
+    "kecamatan": "Mijen",
+    "kelurahan": "Pesantren",
+    "luas_wilayah": 6.34,
+    "total_penduduk": 3296,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.14.1014.pdf"
+  },
+  {
+    "kecamatan": "Gunungpati",
+    "kelurahan": "Sadeng",
+    "luas_wilayah": 4.55,
+    "total_penduduk": 15428,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.12.1011.pdf"
+  },
+  {
+    "kecamatan": "Candisari",
+    "kelurahan": "Jatingaleh",
+    "luas_wilayah": 1.2,
+    "total_penduduk": 11385,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.08.1002.pdf"
+  },
+  {
+    "kecamatan": "Gunungpati",
+    "kelurahan": "Sukorejo",
+    "luas_wilayah": 4.68,
+    "total_penduduk": 5114,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.12.1010.pdf"
+  },
+  {
+    "kecamatan": "Tembalang",
+    "kelurahan": "Kedungmundu",
+    "luas_wilayah": 1.87,
+    "total_penduduk": 13086,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.10.1009.pdf"
+  },
+  {
+    "kecamatan": "Candisari",
+    "kelurahan": "Kaliwiru",
+    "luas_wilayah": 0.53,
+    "total_penduduk": 2985,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.08.1003.pdf"
+  },
+  {
+    "kecamatan": "Pedurungan",
+    "kelurahan": "Plamongansari",
+    "luas_wilayah": 2.63,
+    "total_penduduk": 15057,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.06.1006.pdf"
+  },
+  {
+    "kecamatan": "Gajahmungkur",
+    "kelurahan": "Bendan Dhuwur",
+    "luas_wilayah": 1.03,
+    "total_penduduk": 4238,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.09.1002.pdf"
+  },
+  {
+    "kecamatan": "Tembalang",
+    "kelurahan": "Jangli",
+    "luas_wilayah": 3.38,
+    "total_penduduk": 8310,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.10.1007.pdf"
+  },
+  {
+    "kecamatan": "Mijen",
+    "kelurahan": "Kedungpane",
+    "luas_wilayah": 7.08,
+    "total_penduduk": 8561,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.14.1010.pdf"
+  },
+  {
+    "kecamatan": "Candisari",
+    "kelurahan": "Karanganyar Gunung",
+    "luas_wilayah": 1.12,
+    "total_penduduk": 10904,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.08.1005.pdf"
+  },
+  {
+    "kecamatan": "Mijen",
+    "kelurahan": "Wonoplumbon",
+    "luas_wilayah": 10.08,
+    "total_penduduk": 4528,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.14.1012.pdf"
+  },
+  {
+    "kecamatan": "Tembalang",
+    "kelurahan": "Tandang",
+    "luas_wilayah": 1.94,
+    "total_penduduk": 24961,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.10.1008.pdf"
+  },
+  {
+    "kecamatan": "Pedurungan",
+    "kelurahan": "Pedurungan Kidul",
+    "luas_wilayah": 1.49,
+    "total_penduduk": 14715,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.06.1008.pdf"
+  },
+  {
+    "kecamatan": "Candisari",
+    "kelurahan": "Jomblang",
+    "luas_wilayah": 1.26,
+    "total_penduduk": 19602,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.08.1004.pdf"
+  },
+  {
+    "kecamatan": "Candisari",
+    "kelurahan": "Wonotingal",
+    "luas_wilayah": 0.82,
+    "total_penduduk": 7608,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.08.1007.pdf"
+  },
+  {
+    "kecamatan": "Tembalang",
+    "kelurahan": "Sendangguwo",
+    "luas_wilayah": 1.45,
+    "total_penduduk": 23279,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.10.1010.pdf"
+  },
+  {
+    "kecamatan": "Gajahmungkur",
+    "kelurahan": "Sampangan",
+    "luas_wilayah": 0.98,
+    "total_penduduk": 10611,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.09.1004.pdf"
+  },
+  {
+    "kecamatan": "Gajahmungkur",
+    "kelurahan": "Bendan Ngisor",
+    "luas_wilayah": 0.9,
+    "total_penduduk": 5679,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.09.1003.pdf"
+  },
+  {
+    "kecamatan": "Semarang Selatan",
+    "kelurahan": "Lamper Kidul",
+    "luas_wilayah": 0.43,
+    "total_penduduk": 4050,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.07.1009.pdf"
+  },
+  {
+    "kecamatan": "Candisari",
+    "kelurahan": "Candi",
+    "luas_wilayah": 0.68,
+    "total_penduduk": 10931,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.08.1001.pdf"
+  },
+  {
+    "kecamatan": "Gajahmungkur",
+    "kelurahan": "Gajahmungkur",
+    "luas_wilayah": 3.24,
+    "total_penduduk": 15440,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.09.1005.pdf"
+  },
+  {
+    "kecamatan": "Pedurungan",
+    "kelurahan": "Gemah",
+    "luas_wilayah": 1.26,
+    "total_penduduk": 16134,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.06.1007.pdf"
+  },
+  {
+    "kecamatan": "Pedurungan",
+    "kelurahan": "Pedurungan Lor",
+    "luas_wilayah": 1.49,
+    "total_penduduk": 10468,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.06.1009.pdf"
+  },
+  {
+    "kecamatan": "Semarang Selatan",
+    "kelurahan": "Lamper Tengah",
+    "luas_wilayah": 0.74,
+    "total_penduduk": 11896,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.07.1010.pdf"
+  },
+  {
+    "kecamatan": "Ngaliyan",
+    "kelurahan": "Kalipancur",
+    "luas_wilayah": 2.27,
+    "total_penduduk": 21048,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.15.1005.pdf"
+  },
+  {
+    "kecamatan": "Ngaliyan",
+    "kelurahan": "Wates",
+    "luas_wilayah": 5.03,
+    "total_penduduk": 6336,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.15.1010.pdf"
+  },
+  {
+    "kecamatan": "Semarang Selatan",
+    "kelurahan": "Lamper Lor",
+    "luas_wilayah": 0.35,
+    "total_penduduk": 5548,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.07.1008.pdf"
+  },
+  {
+    "kecamatan": "Ngaliyan",
+    "kelurahan": "Bambankerep",
+    "luas_wilayah": 3.34,
+    "total_penduduk": 6409,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.15.1006.pdf"
+  },
+  {
+    "kecamatan": "Pedurungan",
+    "kelurahan": "Penggaron Kidul",
+    "luas_wilayah": 2.28,
+    "total_penduduk": 8041,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.06.1001.pdf"
+  },
+  {
+    "kecamatan": "Candisari",
+    "kelurahan": "Tegalsari",
+    "luas_wilayah": 1.03,
+    "total_penduduk": 12895,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.08.1006.pdf"
+  },
+  {
+    "kecamatan": "Semarang Barat",
+    "kelurahan": "Manyaran",
+    "luas_wilayah": 1.77,
+    "total_penduduk": 18174,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.13.1002.pdf"
+  },
+  {
+    "kecamatan": "Gajahmungkur",
+    "kelurahan": "Lempongsari",
+    "luas_wilayah": 0.84,
+    "total_penduduk": 5361,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.09.1006.pdf"
+  },
+  {
+    "kecamatan": "Gajahmungkur",
+    "kelurahan": "Bendungan",
+    "luas_wilayah": 0.46,
+    "total_penduduk": 3841,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.09.1008.pdf"
+  },
+  {
+    "kecamatan": "Pedurungan",
+    "kelurahan": "Pedurungan Tengah",
+    "luas_wilayah": 1.85,
+    "total_penduduk": 16992,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.06.1010.pdf"
+  },
+  {
+    "kecamatan": "Gajahmungkur",
+    "kelurahan": "Petompon",
+    "luas_wilayah": 0.9,
+    "total_penduduk": 5785,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.09.1007.pdf"
+  },
+  {
+    "kecamatan": "Ngaliyan",
+    "kelurahan": "Bringin",
+    "luas_wilayah": 2.96,
+    "total_penduduk": 18502,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.15.1003.pdf"
+  },
+  {
+    "kecamatan": "Semarang Selatan",
+    "kelurahan": "Peterongan",
+    "luas_wilayah": 0.6,
+    "total_penduduk": 5865,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.07.1007.pdf"
+  },
+  {
+    "kecamatan": "Ngaliyan",
+    "kelurahan": "Ngaliyan",
+    "luas_wilayah": 5.29,
+    "total_penduduk": 13085,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.15.1007.pdf"
+  },
+  {
+    "kecamatan": "Semarang Selatan",
+    "kelurahan": "Wonodri",
+    "luas_wilayah": 0.73,
+    "total_penduduk": 9445,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.07.1006.pdf"
+  },
+  {
+    "kecamatan": "Pedurungan",
+    "kelurahan": "Palebon",
+    "luas_wilayah": 1.4,
+    "total_penduduk": 14986,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.06.1011.pdf"
+  },
+  {
+    "kecamatan": "Semarang Barat",
+    "kelurahan": "Ngemplak Simongan",
+    "luas_wilayah": 0.84,
+    "total_penduduk": 12742,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.13.1001.pdf"
+  },
+  {
+    "kecamatan": "Gayamsari",
+    "kelurahan": "Gayamsari",
+    "luas_wilayah": 1.22,
+    "total_penduduk": 12055,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.04.1007.pdf"
+  },
+  {
+    "kecamatan": "Semarang Selatan",
+    "kelurahan": "Pleburan",
+    "luas_wilayah": 0.81,
+    "total_penduduk": 4156,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.07.1005.pdf"
+  },
+  {
+    "kecamatan": "Gayamsari",
+    "kelurahan": "Pandean Lamper",
+    "luas_wilayah": 1.07,
+    "total_penduduk": 1408,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.04.1006.pdf"
+  },
+  {
+    "kecamatan": "Semarang Barat",
+    "kelurahan": "Bongsari",
+    "luas_wilayah": 0.86,
+    "total_penduduk": 12541,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.13.1008.pdf"
+  },
+  {
+    "kecamatan": "Ngaliyan",
+    "kelurahan": "Purwoyoso",
+    "luas_wilayah": 2.11,
+    "total_penduduk": 15275,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.15.1004.pdf"
+  },
+  {
+    "kecamatan": "Semarang Selatan",
+    "kelurahan": "Mugasari",
+    "luas_wilayah": 0.81,
+    "total_penduduk": 7028,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.07.1004.pdf"
+  },
+  {
+    "kecamatan": "Semarang Barat",
+    "kelurahan": "Kembangarum",
+    "luas_wilayah": 1.89,
+    "total_penduduk": 19401,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.13.1016.pdf"
+  },
+  {
+    "kecamatan": "Semarang Tengah",
+    "kelurahan": "Karang Kidul",
+    "luas_wilayah": 0.51,
+    "total_penduduk": 3768,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.01.1012.pdf"
+  },
+  {
+    "kecamatan": "Semarang Timur",
+    "kelurahan": "Karangtempel",
+    "luas_wilayah": 0.74,
+    "total_penduduk": 3564,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.03.1010.pdf"
+  },
+  {
+    "kecamatan": "Semarang Timur",
+    "kelurahan": "Karangturi",
+    "luas_wilayah": 0.28,
+    "total_penduduk": 2817,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.03.1009.pdf"
+  },
+  {
+    "kecamatan": "Semarang Barat",
+    "kelurahan": "Kalibanteng Kidul",
+    "luas_wilayah": 0.44,
+    "total_penduduk": 4980,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.13.1006.pdf"
+  },
+  {
+    "kecamatan": "Pedurungan",
+    "kelurahan": "Kalicari",
+    "luas_wilayah": 1.42,
+    "total_penduduk": 9755,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.06.1012.pdf"
+  },
+  {
+    "kecamatan": "Semarang Barat",
+    "kelurahan": "Bojongsalaman",
+    "luas_wilayah": 0.6,
+    "total_penduduk": 8052,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.13.1009.pdf"
+  },
+  {
+    "kecamatan": "Semarang Tengah",
+    "kelurahan": "Pekunden",
+    "luas_wilayah": 0.52,
+    "total_penduduk": 3206,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.01.1013.pdf"
+  },
+  {
+    "kecamatan": "Semarang Selatan",
+    "kelurahan": "Randusari",
+    "luas_wilayah": 0.86,
+    "total_penduduk": 7243,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.07.1001.pdf"
+  },
+  {
+    "kecamatan": "Semarang Selatan",
+    "kelurahan": "Barusari",
+    "luas_wilayah": 0.53,
+    "total_penduduk": 5860,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.07.1003.pdf"
+  },
+  {
+    "kecamatan": "Pedurungan",
+    "kelurahan": "Tlogomulyo",
+    "luas_wilayah": 2.09,
+    "total_penduduk": 17611,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.06.1002.pdf"
+  },
+  {
+    "kecamatan": "Ngaliyan",
+    "kelurahan": "Gondoriyo",
+    "luas_wilayah": 5.48,
+    "total_penduduk": 8328,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.15.1001.pdf"
+  },
+  {
+    "kecamatan": "Semarang Barat",
+    "kelurahan": "Salamanmloyo",
+    "luas_wilayah": 0.47,
+    "total_penduduk": 3275,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.13.1010.pdf"
+  },
+  {
+    "kecamatan": "Ngaliyan",
+    "kelurahan": "Podorejo",
+    "luas_wilayah": 8.52,
+    "total_penduduk": 10236,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.15.1002.pdf"
+  },
+  {
+    "kecamatan": "Semarang Selatan",
+    "kelurahan": "Bulustalan",
+    "luas_wilayah": 0.31,
+    "total_penduduk": 4253,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.07.1002.pdf"
+  },
+  {
+    "kecamatan": "Semarang Barat",
+    "kelurahan": "Cabean",
+    "luas_wilayah": 0.22,
+    "total_penduduk": 2643,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.13.1011.pdf"
+  },
+  {
+    "kecamatan": "Semarang Tengah",
+    "kelurahan": "Brumbungan",
+    "luas_wilayah": 0.35,
+    "total_penduduk": 3638,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.01.1002.pdf"
+  },
+  {
+    "kecamatan": "Semarang Tengah",
+    "kelurahan": "Miroto",
+    "luas_wilayah": 0.35,
+    "total_penduduk": 4483,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.01.1001.pdf"
+  },
+  {
+    "kecamatan": "Semarang Barat",
+    "kelurahan": "Krapyak",
+    "luas_wilayah": 0.92,
+    "total_penduduk": 6002,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.13.1003.pdf"
+  },
+  {
+    "kecamatan": "Semarang Barat",
+    "kelurahan": "Kalibanteng Kulon",
+    "luas_wilayah": 0.98,
+    "total_penduduk": 6620,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.13.1005.pdf"
+  },
+  {
+    "kecamatan": "Pedurungan",
+    "kelurahan": "Tlogosari Wetan",
+    "luas_wilayah": 1.25,
+    "total_penduduk": 9965,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.06.1003.pdf"
+  },
+  {
+    "kecamatan": "Semarang Tengah",
+    "kelurahan": "Pindrikan Kidul",
+    "luas_wilayah": 0.38,
+    "total_penduduk": 2557,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.01.1014.pdf"
+  },
+  {
+    "kecamatan": "Semarang Tengah",
+    "kelurahan": "Gabahan",
+    "luas_wilayah": 0.26,
+    "total_penduduk": 7036,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.01.1005.pdf"
+  },
+  {
+    "kecamatan": "Ngaliyan",
+    "kelurahan": "Tambakaji",
+    "luas_wilayah": 4.37,
+    "total_penduduk": 20905,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.15.1008.pdf"
+  },
+  {
+    "kecamatan": "Genuk",
+    "kelurahan": "Bangetayu Wetan",
+    "luas_wilayah": 2.08,
+    "total_penduduk": 16060,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.05.1011.pdf"
+  },
+  {
+    "kecamatan": "Pedurungan",
+    "kelurahan": "Tlogosari Kulon",
+    "luas_wilayah": 2.43,
+    "total_penduduk": 32305,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.06.1004.pdf"
+  },
+  {
+    "kecamatan": "Semarang Timur",
+    "kelurahan": "Sarirejo",
+    "luas_wilayah": 0.41,
+    "total_penduduk": 7519,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.03.1007.pdf"
+  },
+  {
+    "kecamatan": "Semarang Barat",
+    "kelurahan": "Gisikdrono",
+    "luas_wilayah": 1.32,
+    "total_penduduk": 18593,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.13.1007.pdf"
+  },
+  {
+    "kecamatan": "Genuk",
+    "kelurahan": "Penggaron Lor",
+    "luas_wilayah": 1.43,
+    "total_penduduk": 6803,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.05.1008.pdf"
+  },
+  {
+    "kecamatan": "Semarang Barat",
+    "kelurahan": "Karangayu",
+    "luas_wilayah": 0.54,
+    "total_penduduk": 7312,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.13.1012.pdf"
+  },
+  {
+    "kecamatan": "Semarang Tengah",
+    "kelurahan": "Kranggan",
+    "luas_wilayah": 0.28,
+    "total_penduduk": 3709,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.01.1004.pdf"
+  },
+  {
+    "kecamatan": "Semarang Tengah",
+    "kelurahan": "Jagalan",
+    "luas_wilayah": 0.33,
+    "total_penduduk": 5219,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.01.1003.pdf"
+  },
+  {
+    "kecamatan": "Semarang Timur",
+    "kelurahan": "Rejosari",
+    "luas_wilayah": 0.81,
+    "total_penduduk": 14507,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.03.1008.pdf"
+  },
+  {
+    "kecamatan": "Semarang Tengah",
+    "kelurahan": "Pindrikan Lor",
+    "luas_wilayah": 0.33,
+    "total_penduduk": 5125,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.01.1015.pdf"
+  },
+  {
+    "kecamatan": "Semarang Tengah",
+    "kelurahan": "Kembangsari",
+    "luas_wilayah": 0.29,
+    "total_penduduk": 3574,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.01.1006.pdf"
+  },
+  {
+    "kecamatan": "Semarang Tengah",
+    "kelurahan": "Sekayu",
+    "luas_wilayah": 0.62,
+    "total_penduduk": 3273,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.01.1007.pdf"
+  },
+  {
+    "kecamatan": "Gayamsari",
+    "kelurahan": "Siwalan",
+    "luas_wilayah": 0.54,
+    "total_penduduk": 8063,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.04.1005.pdf"
+  },
+  {
+    "kecamatan": "Gayamsari",
+    "kelurahan": "Sambirejo",
+    "luas_wilayah": 1.15,
+    "total_penduduk": 8328,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.04.1004.pdf"
+  },
+  {
+    "kecamatan": "Semarang Tengah",
+    "kelurahan": "Bangunharjo",
+    "luas_wilayah": 0.22,
+    "total_penduduk": 2183,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.01.1009.pdf"
+  },
+  {
+    "kecamatan": "Semarang Barat",
+    "kelurahan": "Krobokan",
+    "luas_wilayah": 0.87,
+    "total_penduduk": 14042,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.13.1013.pdf"
+  },
+  {
+    "kecamatan": "Semarang Timur",
+    "kelurahan": "Kebonagung",
+    "luas_wilayah": 0.24,
+    "total_penduduk": 4173,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.03.1004.pdf"
+  },
+  {
+    "kecamatan": "Semarang Timur",
+    "kelurahan": "Bugangan",
+    "luas_wilayah": 0.51,
+    "total_penduduk": 7394,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.03.1006.pdf"
+  },
+  {
+    "kecamatan": "Genuk",
+    "kelurahan": "Bangetayu Kulon",
+    "luas_wilayah": 1.99,
+    "total_penduduk": 19899,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.05.1010.pdf"
+  },
+  {
+    "kecamatan": "Genuk",
+    "kelurahan": "Sembungharjo",
+    "luas_wilayah": 2.15,
+    "total_penduduk": 15625,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.05.1001.pdf"
+  },
+  {
+    "kecamatan": "Semarang Tengah",
+    "kelurahan": "Pandansari",
+    "luas_wilayah": 0.29,
+    "total_penduduk": 2265,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.01.1008.pdf"
+  },
+  {
+    "kecamatan": "Semarang Tengah",
+    "kelurahan": "Kauman",
+    "luas_wilayah": 0.23,
+    "total_penduduk": 2225,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.01.1010.pdf"
+  },
+  {
+    "kecamatan": "Ngaliyan",
+    "kelurahan": "Wonosari",
+    "luas_wilayah": 5.49,
+    "total_penduduk": 24331,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.15.1009.pdf"
+  },
+  {
+    "kecamatan": "Semarang Utara",
+    "kelurahan": "Bulu Lor",
+    "luas_wilayah": 0.68,
+    "total_penduduk": 13839,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.02.1002.pdf"
+  },
+  {
+    "kecamatan": "Semarang Tengah",
+    "kelurahan": "Purwodinatan",
+    "luas_wilayah": 0.39,
+    "total_penduduk": 4085,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.01.1011.pdf"
+  },
+  {
+    "kecamatan": "Semarang Utara",
+    "kelurahan": "Purwosari",
+    "luas_wilayah": 0.48,
+    "total_penduduk": 8082,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.02.1004.pdf"
+  },
+  {
+    "kecamatan": "Gayamsari",
+    "kelurahan": "Sawah Besar",
+    "luas_wilayah": 0.62,
+    "total_penduduk": 9139,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.04.1003.pdf"
+  },
+  {
+    "kecamatan": "Semarang Utara",
+    "kelurahan": "Plombokan",
+    "luas_wilayah": 0.57,
+    "total_penduduk": 7921,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.02.1003.pdf"
+  },
+  {
+    "kecamatan": "Tugu",
+    "kelurahan": "Jerakah",
+    "luas_wilayah": 1.19,
+    "total_penduduk": 3189,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.16.1001.pdf"
+  },
+  {
+    "kecamatan": "Semarang Utara",
+    "kelurahan": "Dadapsari",
+    "luas_wilayah": 0.4,
+    "total_penduduk": 8271,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.02.1009.pdf"
+  },
+  {
+    "kecamatan": "Semarang Utara",
+    "kelurahan": "Panggung Kidul",
+    "luas_wilayah": 0.45,
+    "total_penduduk": 6073,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.02.1007.pdf"
+  },
+  {
+    "kecamatan": "Pedurungan",
+    "kelurahan": "Muktiharjo Kidul",
+    "luas_wilayah": 2.14,
+    "total_penduduk": 33847,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.06.1005.pdf"
+  },
+  {
+    "kecamatan": "Tugu",
+    "kelurahan": "Karanganyar",
+    "luas_wilayah": 4.46,
+    "total_penduduk": 4088,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.16.1003.pdf"
+  },
+  {
+    "kecamatan": "Tugu",
+    "kelurahan": "Randugarut",
+    "luas_wilayah": 5.0,
+    "total_penduduk": 2305,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.16.1004.pdf"
+  },
+  {
+    "kecamatan": "Semarang Timur",
+    "kelurahan": "Mlatibaru",
+    "luas_wilayah": 0.52,
+    "total_penduduk": 6232,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.03.1003.pdf"
+  },
+  {
+    "kecamatan": "Semarang Timur",
+    "kelurahan": "Rejomulyo",
+    "luas_wilayah": 0.38,
+    "total_penduduk": 3633,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.03.1002.pdf"
+  },
+  {
+    "kecamatan": "Semarang Timur",
+    "kelurahan": "Mlatiharjo",
+    "luas_wilayah": 0.47,
+    "total_penduduk": 4785,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.03.1005.pdf"
+  },
+  {
+    "kecamatan": "Tugu",
+    "kelurahan": "Tugurejo",
+    "luas_wilayah": 5.43,
+    "total_penduduk": 7498,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.16.1002.pdf"
+  },
+  {
+    "kecamatan": "Gayamsari",
+    "kelurahan": "Kaligawe",
+    "luas_wilayah": 0.84,
+    "total_penduduk": 10237,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.04.1002.pdf"
+  },
+  {
+    "kecamatan": "Genuk",
+    "kelurahan": "Muktiharjo Lor",
+    "luas_wilayah": 1.39,
+    "total_penduduk": 3873,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.05.1009.pdf"
+  },
+  {
+    "kecamatan": "Genuk",
+    "kelurahan": "Gebangsari",
+    "luas_wilayah": 1.26,
+    "total_penduduk": 5046,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.05.1006.pdf"
+  },
+  {
+    "kecamatan": "Genuk",
+    "kelurahan": "Kudu",
+    "luas_wilayah": 2.02,
+    "total_penduduk": 11584,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.05.1002.pdf"
+  },
+  {
+    "kecamatan": "Semarang Utara",
+    "kelurahan": "Kuningan",
+    "luas_wilayah": 0.85,
+    "total_penduduk": 14128,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.02.1005.pdf"
+  },
+  {
+    "kecamatan": "Semarang Barat",
+    "kelurahan": "Tawangmas",
+    "luas_wilayah": 1.38,
+    "total_penduduk": 7287,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.13.1015.pdf"
+  },
+  {
+    "kecamatan": "Tugu",
+    "kelurahan": "Mangunharjo",
+    "luas_wilayah": 4.66,
+    "total_penduduk": 6614,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.16.1007.pdf"
+  },
+  {
+    "kecamatan": "Genuk",
+    "kelurahan": "Karangroto",
+    "luas_wilayah": 2.17,
+    "total_penduduk": 16184,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.05.1003.pdf"
+  },
+  {
+    "kecamatan": "Tugu",
+    "kelurahan": "Mangkang Wetan",
+    "luas_wilayah": 3.96,
+    "total_penduduk": 6301,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.16.1005.pdf"
+  },
+  {
+    "kecamatan": "Genuk",
+    "kelurahan": "Genuksari",
+    "luas_wilayah": 2.26,
+    "total_penduduk": 17886,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.05.1004.pdf"
+  },
+  {
+    "kecamatan": "Semarang Timur",
+    "kelurahan": "Kemijen",
+    "luas_wilayah": 1.21,
+    "total_penduduk": 31413,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.03.1001.pdf"
+  },
+  {
+    "kecamatan": "Genuk",
+    "kelurahan": "Banjardowo",
+    "luas_wilayah": 2.55,
+    "total_penduduk": 11567,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.05.1005.pdf"
+  },
+  {
+    "kecamatan": "Genuk",
+    "kelurahan": "Terboyo Kulon",
+    "luas_wilayah": 2.75,
+    "total_penduduk": 566,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.05.1012.pdf"
+  },
+  {
+    "kecamatan": "Semarang Barat",
+    "kelurahan": "Tambakharjo",
+    "luas_wilayah": 8.07,
+    "total_penduduk": 3423,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.13.1004.pdf"
+  },
+  {
+    "kecamatan": "Semarang Barat",
+    "kelurahan": "Tawangsari",
+    "luas_wilayah": 3.83,
+    "total_penduduk": 6512,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.13.1014.pdf"
+  },
+  {
+    "kecamatan": "Genuk",
+    "kelurahan": "Terboyo Wetan",
+    "luas_wilayah": 1.95,
+    "total_penduduk": 1416,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.05.1013.pdf"
+  },
+  {
+    "kecamatan": "Semarang Utara",
+    "kelurahan": "Panggung Lor",
+    "luas_wilayah": 2.41,
+    "total_penduduk": 12461,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.02.1006.pdf"
+  },
+  {
+    "kecamatan": "Gayamsari",
+    "kelurahan": "Tambakrejo",
+    "luas_wilayah": 1.02,
+    "total_penduduk": 9498,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.04.1001.pdf"
+  },
+  {
+    "kecamatan": "Semarang Utara",
+    "kelurahan": "Bandarharjo",
+    "luas_wilayah": 2.24,
+    "total_penduduk": 19757,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.02.1001.pdf"
+  },
+  {
+    "kecamatan": "Tugu",
+    "kelurahan": "Mangkang Kulon",
+    "luas_wilayah": 4.51,
+    "total_penduduk": 3853,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.16.1006.pdf"
+  },
+  {
+    "kecamatan": "Semarang Utara",
+    "kelurahan": "Tanjung Mas",
+    "luas_wilayah": 3.95,
+    "total_penduduk": 27108,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.02.1008.pdf"
+  },
+  {
+    "kecamatan": "Genuk",
+    "kelurahan": "Trimulyo",
+    "luas_wilayah": 3.34,
+    "total_penduduk": 3640,
+    "link_peta": "https://raw.githubusercontent.com/magetanciti/magetanciti.github.io/main/file/PETA%20BATAS%20KELURAHAN_33.74.05.1007.pdf"
+  }
+]
